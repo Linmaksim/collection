@@ -18,6 +18,12 @@
 
 > AvPlay 為 18+ 成人內容，作者聲明僅供研究與學習；版本核實於 2026-11-14。
 
+### HGhubX（黃果短劇客戶端）
+
+- **HGhubX**（⭐ 2868）—— [zxsos/HGhubX](https://github.com/zxsos/HGhubX)：黃果短劇第三方客戶端（Tauri 2 + React + Rust），Windows／macOS／Linux／Android／iOS，沉浸式直式播放。最新 v2.0.0（2026-11-13），[APK 直下（arm64，盒子用這個）](https://github.com/zxsos/HGhubX/releases/download/v2.0.0/HGhubX_2.0.0_arm64.apk)
+
+> HGhubX 本身不提供下載功能；僅供個人學習自用，禁止商業用途（PolyForm Noncommercial 1.0.0）。市面上有加卡密／VIP 付費的惡意修改版，請勿下載付費，只用官方 Release。版本核實於 2026-11-14。
+
 ## 工具
 
 ### LibreGet（OmniGet，下載管理器）
