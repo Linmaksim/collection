@@ -31,3 +31,9 @@
 - **LibreGet**（⭐ 6054）—— [OpenSelena/libreget](https://github.com/OpenSelena/libreget)：開源免費的桌面下載管理器（Tauri 2.0 + Rust + Svelte），下載 Udemy／Hotmart 課程、YouTube、Instagram、X、TikTok、Threads、B 站等 1,800+ 個站；內建 158 個工具（字幕、語音轉文字、影片剪輯、PDF、圖片等）。Windows／macOS／Linux。最新 v0.16.6（2026-11-12），[Windows 免安裝版直下（101 MB）](https://github.com/OpenSelena/libreget/releases/download/v0.16.6/omniget_0.16.6_x64-portable.exe)
 
 > U 盤用法：把免安裝版放進 U 盤，在 exe 旁邊建一個空檔案 `portable.txt` 再啟動，設定／資料庫／Cookie／yt-dlp／FFmpeg 全部收進 U 盤上的 `data` 資料夾，不動電腦，拔了不留痕跡；第一次打開 Windows 會跳 SmartScreen 警告，點「更多資訊 → 仍要執行」。版本核實於 2026-11-14。
+
+### Cloudn（iOS 下載工具）
+
+- **Cloudn**（⭐ 65）—— [mengangs/Cloudn](https://github.com/mengangs/Cloudn)：iOS 下載 App（SwiftUI，iOS 17+），貼連結就能解析下載：短視頻與圖集（抖音、快手、小紅書、B 站、YouTube、X、TikTok、Instagram、Threads 等近 50 個平台，去水印、挑畫質、字幕 SRT）、網盤分享（夸克、百度、阿里、Google Drive、OneDrive 等）、磁力／BT、GitHub 連結。開源免費無廣告，解析全在手機本地完成。最新 v1.4.1（2026-10-24），[IPA 直下（8.6 MB）](https://github.com/mengangs/Cloudn/releases/download/v1.4.1/Cloudn-v1.4.1.ipa)
+
+> 沒上 App Store，要用 AltStore／SideStore／Sideloadly／TrollStore 自己簽名安裝；優酷、愛奇藝、騰訊因 DRM 不支援。版本核實於 2026-11-14。
