@@ -17,3 +17,11 @@
 - **AvPlay**（⭐ 1897）—— [anonymousjav/AvPlayRelease](https://github.com/anonymousjav/AvPlayRelease)：成人影片播放器（18+），日本／中文／歐美／動漫資源，在線觀看、內置播放器；Android／iOS（側載）／Windows／macOS 全平台。最新 v2.2.2（2026-11-13），[APK 直下](https://github.com/anonymousjav/AvPlayRelease/releases/download/v2.2.2/AvPlay-2.2.2.apk)
 
 > AvPlay 為 18+ 成人內容，作者聲明僅供研究與學習；版本核實於 2026-11-14。
+
+## 工具
+
+### LibreGet（OmniGet，下載管理器）
+
+- **LibreGet**（⭐ 6054）—— [OpenSelena/libreget](https://github.com/OpenSelena/libreget)：開源免費的桌面下載管理器（Tauri 2.0 + Rust + Svelte），下載 Udemy／Hotmart 課程、YouTube、Instagram、X、TikTok、Threads、B 站等 1,800+ 個站；內建 158 個工具（字幕、語音轉文字、影片剪輯、PDF、圖片等）。Windows／macOS／Linux。最新 v0.16.6（2026-11-12），[Windows 免安裝版直下（101 MB）](https://github.com/OpenSelena/libreget/releases/download/v0.16.6/omniget_0.16.6_x64-portable.exe)
+
+> U 盤用法：把免安裝版放進 U 盤，在 exe 旁邊建一個空檔案 `portable.txt` 再啟動，設定／資料庫／Cookie／yt-dlp／FFmpeg 全部收進 U 盤上的 `data` 資料夾，不動電腦，拔了不留痕跡；第一次打開 Windows 會跳 SmartScreen 警告，點「更多資訊 → 仍要執行」。版本核實於 2026-11-14。
