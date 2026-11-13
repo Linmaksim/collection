@@ -37,3 +37,9 @@
 - **Cloudn**（⭐ 65）—— [mengangs/Cloudn](https://github.com/mengangs/Cloudn)：iOS 下載 App（SwiftUI，iOS 17+），貼連結就能解析下載：短視頻與圖集（抖音、快手、小紅書、B 站、YouTube、X、TikTok、Instagram、Threads 等近 50 個平台，去水印、挑畫質、字幕 SRT）、網盤分享（夸克、百度、阿里、Google Drive、OneDrive 等）、磁力／BT、GitHub 連結。開源免費無廣告，解析全在手機本地完成。最新 v1.4.1（2026-10-24），[IPA 直下（8.6 MB）](https://github.com/mengangs/Cloudn/releases/download/v1.4.1/Cloudn-v1.4.1.ipa)
 
 > 沒上 App Store，要用 AltStore／SideStore／Sideloadly／TrollStore 自己簽名安裝；優酷、愛奇藝、騰訊因 DRM 不支援。版本核實於 2026-11-14。
+
+### DSH-Android（手機 Agent，定時自動化）
+
+- **DSH-Android**（⭐ 929）—— [jackwener/DSH-Android](https://github.com/jackwener/DSH-Android)：免 Root 的安卓手機 Agent（DeepSeek Harness 引擎內嵌），讀屏操作 App、定時／條件自動化（Wi-Fi／充電／通知觸發）、懸浮球隨時呼起；模型可接 DeepSeek、Gemini、OpenAI 相容接口。Android 10+ arm64。最新 v0.3.11（2026-11-06），[APK 直下（96 MB）](https://github.com/jackwener/DSH-Android/releases/download/v0.3.11/DSH-Android-v0.3.11-arm64.apk)
+
+> 鎖屏後不能操作 App，需亮屏／解鎖；國產 ROM 要放行自啟動與後台彈出。版本核實於 2026-11-14。
