@@ -43,3 +43,9 @@
 - **DSH-Android**（⭐ 929）—— [jackwener/DSH-Android](https://github.com/jackwener/DSH-Android)：免 Root 的安卓手機 Agent（DeepSeek Harness 引擎內嵌），讀屏操作 App、定時／條件自動化（Wi-Fi／充電／通知觸發）、懸浮球隨時呼起；模型可接 DeepSeek、Gemini、OpenAI 相容接口。Android 10+ arm64。最新 v0.3.11（2026-11-06），[APK 直下（96 MB）](https://github.com/jackwener/DSH-Android/releases/download/v0.3.11/DSH-Android-v0.3.11-arm64.apk)
 
 > 鎖屏後不能操作 App，需亮屏／解鎖；國產 ROM 要放行自啟動與後台彈出。版本核實於 2026-11-14。
+
+### LocModel（本地大模型一鍵部署）
+
+- **LocModel**—— [官網](https://locmodel.com)：本地 AI 一鍵部署工具，自動識別電腦硬體、推薦能跑的開源模型，一鍵裝好 llama.cpp 推理引擎；線上下載 HuggingFace 模型或導入本地 GGUF，斷網也能跑。還整合本地畫圖（Z-Image Turbo、FLUX.2 klein）、本地視頻生成（Wan2.2）、Agent（讀寫文件、跑 Python／PowerShell）。Windows／macOS／Linux。最新 v3.1.0（2026-11-15），[官網下載](https://locmodel.com)
+
+> 本地功能全部免費（官方定價頁寫明 Free forever）；唯一收費是可選的加速下載（多線程下載模型文件），不買也能單線程下載或自己導入 GGUF。LocModel 本身沒有公開 GitHub 倉庫。版本核實於 2026-11-15。
