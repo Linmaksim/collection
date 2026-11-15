@@ -73,3 +73,9 @@
 ### Win11Debloat（Windows 去預裝）
 
 - **Win11Debloat**（⭐ 62676）—— [Raphire/Win11Debloat](https://github.com/Raphire/Win11Debloat)：一條 PowerShell 腳本，卸掉 Windows 出廠自帶軟體、順便關掉遙測；跑之前先看腳本內容，可選要刪的項目。Windows 10／11。
+
+### everything-claude-trading（Claude Code 交易量化插件）
+
+- **everything-claude-trading**（⭐ 289）—— [brainbytes-dev/everything-claude-trading](https://github.com/brainbytes-dev/everything-claude-trading)：Claude Code 交易／量化插件，18 個 agent＋82 個 skill＋20 個命令，把 Claude Code 變成量化交易副手：策略設計、回測、風控、期權定價、加密分析。MIT 開源。
+
+> 本身不接交易所、不自動下單，只是一套分析方法與流程；僅 1 個 commit（2026-03-14），成熟度一般，skill 是文字方法論、思路可借鑑。星標核實於 2026-11-15。
