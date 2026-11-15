@@ -24,6 +24,16 @@
 
 > HGhubX 本身不提供下載功能；僅供個人學習自用，禁止商業用途（PolyForm Noncommercial 1.0.0）。市面上有加卡密／VIP 付費的惡意修改版，請勿下載付費，只用官方 Release。版本核實於 2026-11-14。
 
+### Jellyfin（私人影音伺服器）
+
+- **Jellyfin**（⭐ 59367）—— [jellyfin/jellyfin](https://github.com/jellyfin/jellyfin)：開源自建影音伺服器，把手裡的電影、劇集、音樂、照片集中到自己的伺服器裡播，相當於私人版 Netflix；支援多用戶、斷點續播、直播電視與錄影。需自己準備片源和一台常開的伺服器。Windows／macOS／Linux／Android／iOS／Android TV，[官網下載](https://jellyfin.org/downloads)
+
+### NewPipe（安卓免登入看 YouTube）
+
+- **NewPipe**（⭐ 40714）—— [TeamNewPipe/NewPipe](https://github.com/TeamNewPipe/NewPipe)：安卓端輕量 YouTube 前端，免登入、無廣告看 YouTube（也支援 SoundCloud、PeerTube、Bandcamp）；可下載影片與音訊，訂閱與播放清單存在手機本地。Android。最新 v0.29.3（2026-11-15），[APK 直下](https://github.com/TeamNewPipe/NewPipe/releases/download/v0.29.3/NewPipe_v0.29.3.apk)
+
+> NewPipe 不登入 Google 帳號；YouTube 偶爾改版會短暫失效，等更新即可。版本核實於 2026-11-15。
+
 ## 工具
 
 ### LibreGet（OmniGet，下載管理器）
@@ -49,3 +59,17 @@
 - **LocModel**—— [官網](https://locmodel.com)：本地 AI 一鍵部署工具，自動識別電腦硬體、推薦能跑的開源模型，一鍵裝好 llama.cpp 推理引擎；線上下載 HuggingFace 模型或導入本地 GGUF，斷網也能跑。還整合本地畫圖（Z-Image Turbo、FLUX.2 klein）、本地視頻生成（Wan2.2）、Agent（讀寫文件、跑 Python／PowerShell）。Windows／macOS／Linux。最新 v3.1.0（2026-11-15），[官網下載](https://locmodel.com)
 
 > 本地功能全部免費（官方定價頁寫明 Free forever）；唯一收費是可選的加速下載（多線程下載模型文件），不買也能單線程下載或自己導入 GGUF。LocModel 本身沒有公開 GitHub 倉庫。版本核實於 2026-11-15。
+
+### Pi-hole（全屋去廣告）
+
+- **Pi-hole**（⭐ 62005）—— [pi-hole/pi-hole](https://github.com/pi-hole/pi-hole)：裝在一台常開的機器上做 DNS 伺服器，全屋設備（手機、電腦、電視盒）一起攔廣告。需一台常開的機器（樹莓派／舊電腦／NAS），裝在 Docker 或 Linux 上。
+
+> Pi-hole 攔的是 DNS 層廣告（網頁橫幅、App 廣告）；YouTube 影片廣告攔不掉（廣告與影片走同一個域名）。星標核實於 2026-11-15。
+
+### Upscayl（本地 AI 圖片放大）
+
+- **Upscayl**（⭐ 52591）—— [upscayl/upscayl](https://github.com/upscayl/upscayl)：在自己電腦上用 AI 把圖片拉高解析度、修復老照片，全部本地運算、不上傳雲端；支援單張與批次。Windows／macOS／Linux。最新 v2.15.0（2026-11-15），[Windows 直下](https://github.com/upscayl/upscayl/releases/download/v2.15.0/upscayl-2.15.0-win.exe)
+
+### Win11Debloat（Windows 去預裝）
+
+- **Win11Debloat**（⭐ 62676）—— [Raphire/Win11Debloat](https://github.com/Raphire/Win11Debloat)：一條 PowerShell 腳本，卸掉 Windows 出廠自帶軟體、順便關掉遙測；跑之前先看腳本內容，可選要刪的項目。Windows 10／11。
