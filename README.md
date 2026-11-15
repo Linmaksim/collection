@@ -79,3 +79,29 @@
 - **everything-claude-trading**（⭐ 289）—— [brainbytes-dev/everything-claude-trading](https://github.com/brainbytes-dev/everything-claude-trading)：Claude Code 交易／量化插件，18 個 agent＋82 個 skill＋20 個命令，把 Claude Code 變成量化交易副手：策略設計、回測、風控、期權定價、加密分析。MIT 開源。
 
 > 本身不接交易所、不自動下單，只是一套分析方法與流程；僅 1 個 commit（2026-03-14），成熟度一般，skill 是文字方法論、思路可借鑑。星標核實於 2026-11-15。
+
+### anthropics/skills（Anthropic 官方 Agent Skills）
+
+- **Skills**（⭐ 195089）—— [anthropics/skills](https://github.com/anthropics/skills)：Anthropic 官方公開的 Agent Skills 倉庫，寫文章、做投影片、電子表格等技能的範本；也是其他 coding agent 借鑑的技能格式。免費公開。
+
+> 倉庫本身未標授權條款；技能是 Markdown 範本，可直接拿來改著用。星標核實於 2026-11-15。
+
+### obra/superpowers（Claude Code 工作套路技能集）
+
+- **Superpowers**（⭐ 317890）—— [obra/superpowers](https://github.com/obra/superpowers)：給 coding agent 的工作方法技能框架：調查方法、寫作方式、TDD、腦力激盪等一整套固定套路，讓 agent 按套路做事，不必每次從頭想。MIT 開源。
+
+### wshobson/agents（多平台 Agent 與技能合集）
+
+- **Agents**（⭐ 42542）—— [wshobson/agents](https://github.com/wshobson/agents)：按用途打包的 agent、skill、命令合集，Markdown 寫一次，生成器轉成 Claude Code、Codex、Cursor、OpenCode、Pi 等各家格式；也支援 Pi。MIT 開源。
+
+### MoneyPrinterTurbo（主題一鍵生成短視頻）
+
+- **MoneyPrinterTurbo**（⭐ 143714）—— [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo)：給一個主題或關鍵詞，用 AI 大模型＋自動化工作流一鍵生成高清短視頻（現成素材＋配音組裝，不是 AI 生成畫面）。MIT 開源。
+
+### F5-TTS（文章轉語音）
+
+- **F5-TTS**（⭐ 15593）—— [SWivid/F5-TTS](https://github.com/SWivid/F5-TTS)：開源 TTS，把文章變成自然流暢的語音；Flow Matching 路線，可做短視頻配音。MIT 開源。
+
+### Marp（文章生成投影片）
+
+- **Marp**（⭐ 3925）—— [marp-team/marp-cli](https://github.com/marp-team/marp-cli)：Marp 的命令列工具，Markdown 文章直接轉成投影片（HTML／PDF／PPT）。MIT 開源。
