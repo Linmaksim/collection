@@ -74,6 +74,12 @@
 
 - **Win11Debloat**（⭐ 62676）—— [Raphire/Win11Debloat](https://github.com/Raphire/Win11Debloat)：一條 PowerShell 腳本，卸掉 Windows 出廠自帶軟體、順便關掉遙測；跑之前先看腳本內容，可選要刪的項目。Windows 10／11。
 
+### sniplite（輕量開源截圖貼圖工具）
+
+- **sniplite**（⭐ 81）—— [MrTangLuyao/sniplite](https://github.com/MrTangLuyao/sniplite)：Windows 截圖貼圖工具，有 Snipaste 的核心功能、更快更輕：F1 截圖（自動識別窗口與控制項、帶放大鏡）、標註（圈、箭頭、文字、序號、馬賽克）、F3 把圖片或文字釘在螢幕上、命令列呼叫；安裝包約 300KB，核心用組合語言＋C 寫，不依賴 C 運行庫。MIT 開源，免費。Windows 10／11。
+
+> 2026-11-09 建倉、11-14 在小眾軟件論壇發佈，還很新；安裝包沒有數字簽名，Windows 會攔一下。另有同名 C# 項目 GxDongV/SnipLite（90 星），是不同作者、不同工具，不要認錯。星標核實於 2026-11-16。
+
 ### everything-claude-trading（Claude Code 交易量化插件）
 
 - **everything-claude-trading**（⭐ 289）—— [brainbytes-dev/everything-claude-trading](https://github.com/brainbytes-dev/everything-claude-trading)：Claude Code 交易／量化插件，18 個 agent＋82 個 skill＋20 個命令，把 Claude Code 變成量化交易副手：策略設計、回測、風控、期權定價、加密分析。MIT 開源。
