@@ -117,3 +117,9 @@
 - **Linkit**（⭐ 325）—— [blue-idea/linkit](https://github.com/blue-idea/linkit)：桌面書籤管理器，本地優先、離線可用：書籤存本機 SQLite，不用帳號、無廣告、無追蹤；AI 摘要、語義搜尋、知識圖譜、死鏈檢測、重複檢測，一鍵從 Chrome、Firefox、Edge、Safari 匯入。AI 要自己接 OpenAI 相容 API（DeepSeek 也能用）或本地 Ollama。MIT 開源，免費。Windows／macOS／Linux。
 
 > 2026-08-01 建倉，還很新（v0.5 階段）；只有桌面版，沒有手機版。星標核實於 2026-11-16。
+
+### MatrixMedia（矩媒，影片矩陣一鍵發布）
+
+- **MatrixMedia**（⭐ 1428）—— [hanliang97/MatrixMedia](https://github.com/hanliang97/MatrixMedia)：自媒體影片矩陣發布工具（Electron + CLI），一個影片一鍵批量發到 8 個平台：抖音、快手、百家號、B 站、頭條號、視頻號、小紅書、番茄視頻；支援 CLI、HTTP API、MCP Server、DSH 插件，AI 工具可直接調用發片。GPL-2.0 開源，免費。Windows／macOS。
+
+> 2026-03-21 建倉，109 個版本，持續更新；需在自己電腦上跑，每個平台先在軟體裡掃碼登入一次；小紅書對自動化檢測較嚴，可能跳「AI 託管」警告，建議先拿小號試。星標核實於 2026-11-16。
