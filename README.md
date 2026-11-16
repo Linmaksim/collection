@@ -111,3 +111,9 @@
 ### Marp（文章生成投影片）
 
 - **Marp**（⭐ 3925）—— [marp-team/marp-cli](https://github.com/marp-team/marp-cli)：Marp 的命令列工具，Markdown 文章直接轉成投影片（HTML／PDF／PPT）。MIT 開源。
+
+### Linkit（本地優先 AI 書籤管理器）
+
+- **Linkit**（⭐ 325）—— [blue-idea/linkit](https://github.com/blue-idea/linkit)：桌面書籤管理器，本地優先、離線可用：書籤存本機 SQLite，不用帳號、無廣告、無追蹤；AI 摘要、語義搜尋、知識圖譜、死鏈檢測、重複檢測，一鍵從 Chrome、Firefox、Edge、Safari 匯入。AI 要自己接 OpenAI 相容 API（DeepSeek 也能用）或本地 Ollama。MIT 開源，免費。Windows／macOS／Linux。
+
+> 2026-08-01 建倉，還很新（v0.5 階段）；只有桌面版，沒有手機版。星標核實於 2026-11-16。
