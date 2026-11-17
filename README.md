@@ -135,3 +135,9 @@
 - **Univer**（⭐ 27775）—— [dream-num/univer](https://github.com/dream-num/univer)：開源 Office SDK，把 Excel 式表格、文件、簡報嵌進自己的網頁產品，帶公式引擎，可給 AI Agent 調用做表格文件；支援無頭 Node.js。Apache-2.0 開源，核心免費。TypeScript。
 
 > 協作、Excel 匯入匯出、圖表、樞紐分析在付費 Pro 層；是開發用的套件，要寫程式接進去，不是裝了就能用的工具。最新 v1.5.2（2026-11-16）。星標核實於 2026-11-17。
+
+### 麥田（自媒體多平台發布中控與數據監控）
+
+- **麥田**（⭐ 760）—— [CzzzzzzJ/mdldm-maitian](https://github.com/CzzzzzzJ/mdldm-maitian)：自媒體影片多平台發布中控與數據監控（B站／抖音／小紅書／視頻號／YouTube／X／Instagram），Agent 寫文案、Chrome 插件填表定時發、每天採播放與粉絲數據、第 1/3/7 天同天比同天復盤、接自己的站點算轉化漏斗（播放→註冊→會員→收入）；飛書卡片通知＋數據大屏。MIT 開源，免費。需一台常開的電腦（Mac 或 Windows）＋Node.js ≥ 22.5＋Chrome，不存平台密碼；國內四家只填表不發，最後一下自己點。
+
+> 2026-11-14 建倉，3 天 760 星，還很新；姊妹倉庫是發佈助手插件 [CzzzzzzJ/mdldm-maitian-publisher](https://github.com/CzzzzzzJ/mdldm-maitian-publisher)。星標核實於 2026-11-17。
