@@ -129,3 +129,9 @@
 - **twradar**（⭐ 1）—— [auxotsgh86/twradar](https://github.com/auxotsgh86/twradar)：台股盤後籌碼自動爬取（證交所、櫃買中心官方資料：收盤行情、三大法人、融資融券），存 SQLite，依「右側加碼」規則產生 🟢 加碼／🟡 觀察／🔴 不宜加碼訊號，附 Web API、網頁 UI、可列印 PDF 報表；另有回溯分析與模型追蹤、集保股權分散表、注意股／處置股標示。純 Python 標準函式庫，不需資料庫伺服器。MIT 開源，免費。macOS／Linux／Docker。
 
 > 2026-11-12 才建倉，非常新、星標只有 1 顆，規則未經長時間驗證；需在自己電腦上跑（保持開機、不要睡眠），首次補抓約兩年資料要 8–12 小時；README 明寫不構成任何投資建議。星標核實於 2026-11-17。
+
+### Univer（開源 Office SDK，表格／文件／簡報）
+
+- **Univer**（⭐ 27775）—— [dream-num/univer](https://github.com/dream-num/univer)：開源 Office SDK，把 Excel 式表格、文件、簡報嵌進自己的網頁產品，帶公式引擎，可給 AI Agent 調用做表格文件；支援無頭 Node.js。Apache-2.0 開源，核心免費。TypeScript。
+
+> 協作、Excel 匯入匯出、圖表、樞紐分析在付費 Pro 層；是開發用的套件，要寫程式接進去，不是裝了就能用的工具。最新 v1.5.2（2026-11-16）。星標核實於 2026-11-17。
