@@ -141,3 +141,9 @@
 - **麥田**（⭐ 760）—— [CzzzzzzJ/mdldm-maitian](https://github.com/CzzzzzzJ/mdldm-maitian)：自媒體影片多平台發布中控與數據監控（B站／抖音／小紅書／視頻號／YouTube／X／Instagram），Agent 寫文案、Chrome 插件填表定時發、每天採播放與粉絲數據、第 1/3/7 天同天比同天復盤、接自己的站點算轉化漏斗（播放→註冊→會員→收入）；飛書卡片通知＋數據大屏。MIT 開源，免費。需一台常開的電腦（Mac 或 Windows）＋Node.js ≥ 22.5＋Chrome，不存平台密碼；國內四家只填表不發，最後一下自己點。
 
 > 2026-11-14 建倉，3 天 760 星，還很新；姊妹倉庫是發佈助手插件 [CzzzzzzJ/mdldm-maitian-publisher](https://github.com/CzzzzzzJ/mdldm-maitian-publisher)。星標核實於 2026-11-17。
+
+### 設計風格庫（每天一個設計風格，動效短片＋風格圖）
+
+- **設計風格庫**（⭐ 488）—— [guanmo-ai/design-style](https://github.com/guanmo-ai/design-style)：每天拆解一種設計風格：15–20 秒動效短片、4 張風格圖、設計規則、色板、字體、AI 提示詞與完整源碼；19 種風格（包豪斯、孟菲斯、新粗野主義、水墨、毛絨……）＋2 種佈局（便當盒、瀑布流），設計令牌一份顏色字體多端共用；附給 Muse／Claude 用的 style-film skill。Remotion＋three.js 渲染、配樂 Python 合成，需 Node.js ≥ 22.12＋Python 3.10＋ffmpeg。
+
+> 2026-10-20 建倉，197 個提交、25 個版本，還在更新；未標標準開源協議，作者寫明代碼可學可改，轉發影片圖片要註明觀默 @guanmo_ai。星標核實於 2026-11-17。
