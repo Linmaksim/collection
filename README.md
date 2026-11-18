@@ -147,3 +147,45 @@
 - **設計風格庫**（⭐ 488）—— [guanmo-ai/design-style](https://github.com/guanmo-ai/design-style)：每天拆解一種設計風格：15–20 秒動效短片、4 張風格圖、設計規則、色板、字體、AI 提示詞與完整源碼；19 種風格（包豪斯、孟菲斯、新粗野主義、水墨、毛絨……）＋2 種佈局（便當盒、瀑布流），設計令牌一份顏色字體多端共用；附給 Muse／Claude 用的 style-film skill。Remotion＋three.js 渲染、配樂 Python 合成，需 Node.js ≥ 22.12＋Python 3.10＋ffmpeg。
 
 > 2026-10-20 建倉，197 個提交、25 個版本，還在更新；未標標準開源協議，作者寫明代碼可學可改，轉發影片圖片要註明觀默 @guanmo_ai。星標核實於 2026-11-17。
+
+### Raphael（免費生圖備用）
+
+- **Raphael**—— [官網](https://raphael.ai)：免費 AI 生圖，免註冊，每天約 10 張快速生成＋慢速排隊不限量；免費圖帶水印、僅個人非商用、解析度約 1024px。只能當配圖草稿備用，正式稿不能直接用。網頁版，現在就能用。
+
+> 帖子說「免費無限、質量逼近 Midjourney」，無限基本屬實（慢速不限量），質量說法未核實。版本核實於 2026-11-18。
+
+### Clipdrop（出稿修圖）
+
+- **Clipdrop**—— [官網](https://clipdrop.co)：一鍵去背景、補光、擦除、2x 放大；免費每工具每天 20 次，免費輸出約 1024px。已接進出稿配圖修圖流程。網頁版，現在就能用。
+
+> 免費額度核實於 2026-11-18。
+
+### SadTalker（照片變說話影片）
+
+- **SadTalker**—— [OpenTalker/SadTalker](https://github.com/OpenTalker/SadTalker)：開源免費（Apache-2.0），一張照片＋一段語音生成說話影片，可商用；本站無官方獨立在線版，走 Hugging Face 演示、Colab 或本地裝（Python 3.10＋FFmpeg）。能跑在 Kaggle 免費 GPU 上。
+
+> 唯一真正免費可商用的說話影片方案；等 Kaggle 會話開起來時實測。版本核實於 2026-11-18。
+
+### Cursor（AI 寫程式）
+
+- **Cursor**—— [官網](https://cursor.com)：AI 寫程式編輯器，接案核心工具之一；免費 $0 不用綁卡，用量每週刷新，只能用自家模型（第三方模型要 Premium $30/月起）。必須裝桌面編輯器（Windows／macOS／Linux），等電腦連上裝免費版。
+
+> 免費額度核實於 2026-11-18。
+
+### Bolt.new（說話就能建網站）
+
+- **Bolt.new**—— [官網](https://bolt.new)：說話就能建網站，零程式碼；免費每月 100 萬 tokens、每天上限 30 萬，不用綁卡，官網原話「Free forever, no card required」；成品帶 Bolt 品牌、不能綁自己域名，只能當接案 demo。網頁版，現在就能用。
+
+> 免費額度核實於 2026-11-18。
+
+### Napkin（文字變資訊圖）
+
+- **Napkin**—— [官網](https://napkin.ai)：貼文字自動生成資訊圖、流程圖、時間線；免費每週 500 AI credits（約 1 credit 生 1 個詞的圖），無限編輯、無限 PNG／PDF 匯出，匯出帶水印、不能匯出 PPT。已接進出稿配圖（公眾號長文資訊圖）。網頁版，現在就能用。
+
+> 免費額度核實於 2026-11-18。
+
+### Perplexity（AI 搜尋引擎）
+
+- **Perplexity**—— [官網](https://perplexity.ai)：AI 搜尋引擎，問啥都給答案加來源；免費基礎搜尋基本無限、每次回答附來源，每天 3 次 Pro 搜尋、每月 1 次 Research。已接進出稿核實流程（查資料、核實熱度、找來源）。網頁版，現在就能用。
+
+> 免費額度核實於 2026-11-18。
