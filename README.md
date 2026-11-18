@@ -189,3 +189,9 @@
 - **Perplexity**—— [官網](https://perplexity.ai)：AI 搜尋引擎，問啥都給答案加來源；免費基礎搜尋基本無限、每次回答附來源，每天 3 次 Pro 搜尋、每月 1 次 Research。已接進出稿核實流程（查資料、核實熱度、找來源）。網頁版，現在就能用。
 
 > 免費額度核實於 2026-11-18。
+
+### Wireless-Device-Battery-Monitor（無線裝置電量顯示器）
+
+- **Wireless-Device-Battery-Monitor**（⭐ 約 3000）—— [krisgfx9/Wireless-Device-Battery-Monitor](https://github.com/krisgfx9/Wireless-Device-Battery-Monitor)：Windows 工作列顯示無線滑鼠、耳機、鍵盤、手把的電量，不用裝各家廠商軟體；支援羅技、雷蛇、賽睿、海盜船、HyperX、PS5／Xbox 手把和一般藍牙裝置；開源免費、輕量常駐。只支援 Windows 10／11。
+
+> 2026-11-16 才建倉，兩天衝到約 3000 顆星；等電腦連上時再裝。星標核實於 2026-11-18。
