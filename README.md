@@ -108,6 +108,12 @@
 
 - **F5-TTS**（⭐ 15593）—— [SWivid/F5-TTS](https://github.com/SWivid/F5-TTS)：開源 TTS，把文章變成自然流暢的語音；Flow Matching 路線，可做短視頻配音。MIT 開源。
 
+### VoiceStudio（本地語音工作室，語音克隆／配音）
+
+- **VoiceStudio**（⭐ 113882）—— [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio)：開源本地版 ElevenLabs 替代品，語音克隆、語音設計、影片配音、聽寫、轉寫、有聲書，646 種語言；免費、不用帳號、全部本地運算。AGPL-3.0 開源。Windows／macOS／Linux／Android／iOS。最新 v0.5.8（2026-11-12），[Intel Mac 版直下](https://github.com/debpalash/VoiceStudio/releases/download/v0.5.8/VoiceStudio-0.5.8-mac-x64.dmg)
+
+> Intel Mac 只能用介面、本地後端跑不起來（PyTorch 2.2.x 後停發 Intel Mac 輪子，官方文件 #889）：要真正克隆／配音，須接遠端後端或換 Apple Silicon／Windows／Linux。星標與版本核實於 2026-11-19。
+
 ### Marp（文章生成投影片）
 
 - **Marp**（⭐ 3925）—— [marp-team/marp-cli](https://github.com/marp-team/marp-cli)：Marp 的命令列工具，Markdown 文章直接轉成投影片（HTML／PDF／PPT）。MIT 開源。
