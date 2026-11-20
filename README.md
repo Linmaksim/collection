@@ -213,3 +213,9 @@
 - **System Prompts Leaks**（⭐ 72192）—— [asgeirtj/system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks)：各家 AI 產品泄露的系統提示詞合集，全文收錄，2025 年 5 月以來的每個版本都有，每天更新。涵蓋 ChatGPT、Claude、Gemini、Grok、Meta Muse、Kimi、Qwen、GLM、MiniMax、Cursor、Perplexity、DeepSeek 等 30 多家。學提示詞寫法最直接的參考，特別是 Claude Code、Gemini CLI 的系統提示詞。CC0 授權，純資料庫，不用安裝。
 
 > 華盛頓郵報與 Simon Willison 都引用過；星標核實於 2026-11-21。
+
+### Voicebox（AI 語音工作室）
+
+- **Voicebox**（⭐ 60984）—— [jamiepine/voicebox](https://github.com/jamiepine/voicebox)：開源免費（MIT）的 AI 語音工作室，本地跑的 ElevenLabs＋語音輸入二合一：幾秒音頻就能克隆聲音，8 個 TTS 引擎、23 種語言、支援中文；全局熱鍵語音聽寫、Whisper 轉文字；自帶 MCP，Claude Code、Cursor 都能調用它說話。macOS 有 Intel 版 DMG，Windows、Linux、Docker 也能跑。
+
+> 自媒體配音、播客、白露內容配音都能用；Intel Mac 無 MLX 加速，生成較慢，模型需另外下載數 GB。星標核實於 2026-11-21。
