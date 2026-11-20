@@ -201,3 +201,9 @@
 - **Wireless-Device-Battery-Monitor**（⭐ 約 3000）—— [krisgfx9/Wireless-Device-Battery-Monitor](https://github.com/krisgfx9/Wireless-Device-Battery-Monitor)：Windows 工作列顯示無線滑鼠、耳機、鍵盤、手把的電量，不用裝各家廠商軟體；支援羅技、雷蛇、賽睿、海盜船、HyperX、PS5／Xbox 手把和一般藍牙裝置；開源免費、輕量常駐。只支援 Windows 10／11。
 
 > 2026-11-16 才建倉，兩天衝到約 3000 顆星；等電腦連上時再裝。星標核實於 2026-11-18。
+
+### 琦琦輸入法（注音輸入法）
+
+- **琦琦輸入法**（⭐ 60）—— [polobread/KeyKey](https://github.com/polobread/KeyKey)：Yahoo! KeyKey 開源碼的現代化分支（不是 Yahoo 官方產品），延續微軟「ㄅ半」與 Yahoo KeyKey 的手感；好打注音整句組字（預設）與傳統注音逐字選字（ㄅ半模式）兩種，支援注音、倉頡、簡易。Windows 10 以上 x64／x86（原生 TSF）、macOS、iOS、Android、Linux、FreeBSD 六平台。開源免費、無廣告、無追蹤。最新桌面正式版 1.5.1、原始碼 1.5.2（2026-11-20），[Releases 下載](https://github.com/polobread/KeyKey/releases)
+
+> 1.5.0 起改用 Guanyinma（觀音嬤）Rust 共用核心；2026-08-15 建倉，670 個提交。星標與版本核實於 2026-11-20。
