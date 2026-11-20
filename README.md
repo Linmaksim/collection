@@ -219,3 +219,9 @@
 - **Voicebox**（⭐ 60984）—— [jamiepine/voicebox](https://github.com/jamiepine/voicebox)：開源免費（MIT）的 AI 語音工作室，本地跑的 ElevenLabs＋語音輸入二合一：幾秒音頻就能克隆聲音，8 個 TTS 引擎、23 種語言、支援中文；全局熱鍵語音聽寫、Whisper 轉文字；自帶 MCP，Claude Code、Cursor 都能調用它說話。macOS 有 Intel 版 DMG，Windows、Linux、Docker 也能跑。
 
 > 自媒體配音、播客、白露內容配音都能用；Intel Mac 無 MLX 加速，生成較慢，模型需另外下載數 GB。星標核實於 2026-11-21。
+
+### Agent-Reach（讓 AI Agent 聯網查資料）
+
+- **Agent-Reach**（⭐ 113550）—— [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach)：免費開源（MIT）的命令列工具，讓 Claude Code、Cursor 這類 Agent 一條命令打通 14 個平台：B站、YouTube、GitHub、V2EX、網頁搜尋免登入可用；小紅書、微博、雪球、Reddit、X、Instagram 需登入；B站／YouTube 字幕、小宇宙播客轉文字也能抓。
+
+> 出稿核實、找選題時查小紅書／微博／公眾號不用再開瀏覽器慢慢翻；要登入的平台會複用電腦 Chrome 已有登入，建議換小號；YouTube／播客轉文字需另配 Groq 或 OpenAI Key；X／臉書／Ins 為實驗狀態。等電腦連上再裝。星標核實於 2026-11-21。
