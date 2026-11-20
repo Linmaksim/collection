@@ -231,3 +231,9 @@
 - **Refero Styles**—— [styles.refero.design](https://styles.refero.design/)：2000 多套知名產品的設計系統，每套含配色、字體、間距、組件，附一份 DESIGN.md 可直接餵給 Cursor、Claude Code、Codex、v0、Lovable。收錄 Apple、Linear、Raycast、Superhuman、Perplexity、Figma、Cursor、Wise、Intercom 等產品風格。
 
 > 做 Space 和接案落地頁時，照著 Linear 或 Raycast 的 DESIGN.md 排版面；與 UNIT-09 建站員的 Bolt.new demo 搭配用。現階段 Beta，每週新增風格。核實於 2026-11-21。
+
+### Awesome Android Root（安卓 Root 知識庫）
+
+- **Awesome Android Root**（⭐ 6250）—— [awesome-android-root/awesome-android-root](https://github.com/awesome-android-root/awesome-android-root)：社區維護的安卓 Root 知識庫，750 多個 Root 應用和 Magisk、KernelSU、APatch、LSPosed 模組，各品牌手機 Root 教程（Pixel、三星、小米、一加、Nothing、摩托羅拉），去廣告、精簡系統、備份、Play Integrity 等專題。網站 [awesome-android-root.xyz](https://awesome-android-root.xyz/) 可直接搜尋。
+
+> 以後想折騰安卓平板（聯想 Y700）時當參考查；主力機是 iPhone 不走 Root，Y700 當初特意選了不用刷機不用 Root 的方案，Root 有變磚、銀行 App 過不了驗證的風險，現在不動手。星標核實於 2026-11-21。
