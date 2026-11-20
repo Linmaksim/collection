@@ -225,3 +225,9 @@
 - **Agent-Reach**（⭐ 113550）—— [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach)：免費開源（MIT）的命令列工具，讓 Claude Code、Cursor 這類 Agent 一條命令打通 14 個平台：B站、YouTube、GitHub、V2EX、網頁搜尋免登入可用；小紅書、微博、雪球、Reddit、X、Instagram 需登入；B站／YouTube 字幕、小宇宙播客轉文字也能抓。
 
 > 出稿核實、找選題時查小紅書／微博／公眾號不用再開瀏覽器慢慢翻；要登入的平台會複用電腦 Chrome 已有登入，建議換小號；YouTube／播客轉文字需另配 Groq 或 OpenAI Key；X／臉書／Ins 為實驗狀態。等電腦連上再裝。星標核實於 2026-11-21。
+
+### Refero Styles（設計風格參考庫）
+
+- **Refero Styles**—— [styles.refero.design](https://styles.refero.design/)：2000 多套知名產品的設計系統，每套含配色、字體、間距、組件，附一份 DESIGN.md 可直接餵給 Cursor、Claude Code、Codex、v0、Lovable。收錄 Apple、Linear、Raycast、Superhuman、Perplexity、Figma、Cursor、Wise、Intercom 等產品風格。
+
+> 做 Space 和接案落地頁時，照著 Linear 或 Raycast 的 DESIGN.md 排版面；與 UNIT-09 建站員的 Bolt.new demo 搭配用。現階段 Beta，每週新增風格。核實於 2026-11-21。
