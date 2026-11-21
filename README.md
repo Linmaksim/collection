@@ -237,3 +237,9 @@
 - **Awesome Android Root**（⭐ 6250）—— [awesome-android-root/awesome-android-root](https://github.com/awesome-android-root/awesome-android-root)：社區維護的安卓 Root 知識庫，750 多個 Root 應用和 Magisk、KernelSU、APatch、LSPosed 模組，各品牌手機 Root 教程（Pixel、三星、小米、一加、Nothing、摩托羅拉），去廣告、精簡系統、備份、Play Integrity 等專題。網站 [awesome-android-root.xyz](https://awesome-android-root.xyz/) 可直接搜尋。
 
 > 以後想折騰安卓平板（聯想 Y700）時當參考查；主力機是 iPhone 不走 Root，Y700 當初特意選了不用刷機不用 Root 的方案，Root 有變磚、銀行 App 過不了驗證的風險，現在不動手。星標核實於 2026-11-21。
+
+### WinRust（Windows 外殼替代品，Rust 輕量任務欄／檔案管理員）
+
+- **WinRust**（⭐ 875）—— [Lemxy/WinRust](https://github.com/Lemxy/WinRust)：用 Rust 寫的 Windows 外殼替代品，一個安裝包換掉任務欄、檔案總管、檔案搜尋、任務管理器，另附磁碟清理、磁碟用量圖、照片檢視器；自帶遊戲／工作模式、去遙測、關 Copilot 與 Recall。Apache-2.0 開源，免費。Windows 10／11 x64。
+
+> 才建 4 天（2026-11-17），還很新；會關 Windows Search、藏任務欄、把 Explorer 換掉，安裝包未簽名、SmartScreen 會警告，作者建議先在備用機或虛擬機試；主力機與公司電腦不要裝。先收著觀察，半個月看一次版本與穩定度。星標核實於 2026-11-21。
