@@ -148,6 +148,12 @@
 
 > 2026-11-14 建倉，3 天 760 星，還很新；姊妹倉庫是發佈助手插件 [CzzzzzzJ/mdldm-maitian-publisher](https://github.com/CzzzzzzJ/mdldm-maitian-publisher)。星標核實於 2026-11-17。
 
+### CreatorHub（多平台內容管理工作台）
+
+- **CreatorHub**（⭐ 4031）—— [3441293738/creatorhub](https://github.com/3441293738/creatorhub)：本地跑的多平台內容管理工作台（Python + FastAPI），一個 Web 面板管抖音、小紅書、快手、視頻號、TikTok、B 站、Instagram、X、Facebook：帳號矩陣、作品監控、關鍵字採集、素材下載、跨平台群發、私信匯總；帳號登入態、資料庫與媒體都存本地。Windows 有安裝包，macOS／Linux 走原始碼（Python 3.10+）。
+
+> 沒有 Threads（脆），主力三平台只覆蓋 X 與 IG；2026-07-03 建倉，804 fork，持續更新，星標核實於 2026-11-25。先收著，等電腦連上再試裝。
+
 ### 設計風格庫（每天一個設計風格，動效短片＋風格圖）
 
 - **設計風格庫**（⭐ 488）—— [guanmo-ai/design-style](https://github.com/guanmo-ai/design-style)：每天拆解一種設計風格：15–20 秒動效短片、4 張風格圖、設計規則、色板、字體、AI 提示詞與完整源碼；19 種風格（包豪斯、孟菲斯、新粗野主義、水墨、毛絨……）＋2 種佈局（便當盒、瀑布流），設計令牌一份顏色字體多端共用；附給 Muse／Claude 用的 style-film skill。Remotion＋three.js 渲染、配樂 Python 合成，需 Node.js ≥ 22.12＋Python 3.10＋ffmpeg。
