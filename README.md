@@ -64,7 +64,7 @@
 
 ### Pi-hole（全屋去廣告）
 
-- **Pi-hole**【手機＋電腦】（⭐ 62005）—— [pi-hole/pi-hole](https://github.com/pi-hole/pi-hole)：裝在一台常開的機器上做 DNS 伺服器，全屋設備（手機、電腦、電視盒）一起攔廣告。需一台常開的機器（樹莓派／舊電腦／NAS），裝在 Docker 或 Linux 上。
+- **Pi-hole**【電腦】（⭐ 62005）—— [pi-hole/pi-hole](https://github.com/pi-hole/pi-hole)：裝在一台常開的機器上做 DNS 伺服器，全屋設備（手機、電腦、電視盒）一起攔廣告。需一台常開的機器（樹莓派／舊電腦／NAS），裝在 Docker 或 Linux 上。
 
 > Pi-hole 攔的是 DNS 層廣告（網頁橫幅、App 廣告）；YouTube 影片廣告攔不掉（廣告與影片走同一個域名）。星標核實於 2026-11-15。
 
@@ -112,7 +112,7 @@
 
 ### VoiceStudio（本地語音工作室，語音克隆／配音）
 
-- **VoiceStudio**【手機＋電腦】（⭐ 113882）—— [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio)：開源本地版 ElevenLabs 替代品，語音克隆、語音設計、影片配音、聽寫、轉寫、有聲書，646 種語言；免費、不用帳號、全部本地運算。AGPL-3.0 開源。Windows／macOS／Linux／Android／iOS。最新 v0.5.8（2026-11-12），[Intel Mac 版直下](https://github.com/debpalash/VoiceStudio/releases/download/v0.5.8/VoiceStudio-0.5.8-mac-x64.dmg)
+- **VoiceStudio**【電腦】（⭐ 113882）—— [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio)：開源本地版 ElevenLabs 替代品，語音克隆、語音設計、影片配音、聽寫、轉寫、有聲書，646 種語言；免費、不用帳號、全部本地運算。AGPL-3.0 開源。Windows／macOS／Linux。最新 v0.5.8（2026-11-12），[Intel Mac 版直下](https://github.com/debpalash/VoiceStudio/releases/download/v0.5.8/VoiceStudio-0.5.8-mac-x64.dmg)
 
 > Intel Mac 只能用介面、本地後端跑不起來（PyTorch 2.2.x 後停發 Intel Mac 輪子，官方文件 #889）：要真正克隆／配音，須接遠端後端或換 Apple Silicon／Windows／Linux。星標與版本核實於 2026-11-19。
 
