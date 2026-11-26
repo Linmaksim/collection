@@ -287,3 +287,9 @@
 - **jakubkrehel/skills**【電腦】（⭐ 12837）—— [jakubkrehel/skills](https://github.com/jakubkrehel/skills)：16 個教 Agent 把介面做漂亮的 skill：整體審查（better-interface）、UI 打磨（better-ui）、動效（better-motion）、字體（better-typography）、配色（better-colors）、無障礙（better-accessibility）、排版（better-layout）、文案（better-writing），另有從 Figma 照著做（build-design）、一次出多個版本挑（variant）、離開時自動找改進點（afk）等。MIT 開源，純 Markdown。作者 Jakub Krehel，寫 Interfaces 設計工程雜誌。裝法 `npx skills add jakubkrehel/skills`。
 
 > 做 Space 和接案落地頁時打磨介面用；跟 Refero Styles 互補（Refero 是抄別人的設計系統，這套是教怎麼做才好看）。星標核實於 2026-11-26。
+
+### ModelScope 魔搭社区（阿里开源模型平台，模型即服务）
+
+- **ModelScope**【手机＋电脑】（⭐ 9230）—— [modelscope/modelscope](https://github.com/modelscope/modelscope)：阿里巴巴的开源“模型即服务”平台，含模型库、数据集、创空间（可直接在线体验的小应用）；中文界面，覆盖文生文、文生图、文生视频、语音合成、语音识别、抠图等；创空间里 BRIA RMBG 3.0 智能抠图、TTS 文字转语音、文生像素画、实时语音对话、文生图编辑可直接玩。Apache-2.0 开源。官网 https://www.modelscope.cn/ 。
+
+> CPU 资源长期免费、GPU 算力限额免费，但免费 GPU 要注册并绑定阿里云账号，具体限额、时长、GPU 型号首页没写、未核实；各模型商用许可要逐个看，不能默认拿来接案就商用。星标核实于 2026-11-27。
