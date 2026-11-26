@@ -238,6 +238,12 @@
 
 > 配已有的 Gemini 免費層 Key（安全卡，Hydrogen 每天 20 次、Flash-Lite 每天 500 次）就能用，不用再註冊、不綁卡；Key 走 `GEMINI_API_KEY` 環境變數或 `gemini-api configure` 存系統鑰匙圈。等電腦連上再裝，裝時走 Releases 頁下預編譯包放進 PATH，不要用官方 curl | bash 管道安裝腳本。星標核實於 2026-11-26。
 
+### CF-Server-Monitor（免費多伺服器監控面板）
+
+- **CF-Server-Monitor**（⭐ 3711）—— [huilang-me/CF-Server-Monitor](https://github.com/huilang-me/CF-Server-Monitor)：基於 Cloudflare Workers + D1 + Durable Objects 的免費多伺服器監控探針系統，Agent 單向上報 CPU／內存／磁碟／流量／延遲，面板即時看、離線告警、到期提醒、歷史圖表；支援 Linux、Alpine、OpenWrt、macOS、群暉、飛牛、Windows、Docker。MIT 開源。最新 2.8.8 Beta2（2026-11-23），[演示站](https://demo.huilang.me/)
+
+> 部署要 Cloudflare 帳號＋GitHub 帳號，面板免費跑在 Workers 上；Agent 只上報、不接遠端指令，沒有 WebSSH，安全性較好。先收著，裝不裝等 2026-11-26 晚上 20:00 再定。星標核實於 2026-11-26。
+
 ### Refero Styles（設計風格參考庫）
 
 - **Refero Styles**—— [styles.refero.design](https://styles.refero.design/)：2000 多套知名產品的設計系統，每套含配色、字體、間距、組件，附一份 DESIGN.md 可直接餵給 Cursor、Claude Code、Codex、v0、Lovable。收錄 Apple、Linear、Raycast、Superhuman、Perplexity、Figma、Cursor、Wise、Intercom 等產品風格。
