@@ -232,6 +232,12 @@
 
 > 出稿核實、找選題時查小紅書／微博／公眾號不用再開瀏覽器慢慢翻；要登入的平台會複用電腦 Chrome 已有登入，建議換小號；YouTube／播客轉文字需另配 Groq 或 OpenAI Key；X／臉書／Ins 為實驗狀態。等電腦連上再裝。星標核實於 2026-11-21。
 
+### Gemini API CLI（讓 Agent 在終端調 Gemini）
+
+- **Gemini API CLI**（⭐ 3131）—— [google-gemini/gemini-api-cli](https://github.com/google-gemini/gemini-api-cli)：Google 官方實驗性命令行工具（Apache-2.0），單一 Go 二進位，讓 Codex、Claude Code、OpenClaw 這類有 shell 權限的 Agent 直接調 Gemini API：生成文字、分析檔案、生圖、生音訊、生影片、托管 Agent 後台跑長任務；支援 `--dry-run` 先預覽請求不花額度、JSON／TOON 結構化輸出。macOS／Linux／Windows 都能裝，Intel Mac 也行。最新 v0.5.0（2026-11-20）。
+
+> 配已有的 Gemini 免費層 Key（安全卡，Hydrogen 每天 20 次、Flash-Lite 每天 500 次）就能用，不用再註冊、不綁卡；Key 走 `GEMINI_API_KEY` 環境變數或 `gemini-api configure` 存系統鑰匙圈。等電腦連上再裝，裝時走 Releases 頁下預編譯包放進 PATH，不要用官方 curl | bash 管道安裝腳本。星標核實於 2026-11-26。
+
 ### Refero Styles（設計風格參考庫）
 
 - **Refero Styles**—— [styles.refero.design](https://styles.refero.design/)：2000 多套知名產品的設計系統，每套含配色、字體、間距、組件，附一份 DESIGN.md 可直接餵給 Cursor、Claude Code、Codex、v0、Lovable。收錄 Apple、Linear、Raycast、Superhuman、Perplexity、Figma、Cursor、Wise、Intercom 等產品風格。
