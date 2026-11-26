@@ -281,3 +281,9 @@
 - **Concat**【手機＋電腦】（⭐ 21003）—— [jub0t/Concat](https://github.com/jub0t/Concat)：開源免費的跨平台影片剪輯器（Rust），自稱 CapCut 的開源替代品：自動字幕、人聲分離、文字轉語音加聲音複製、去背、關鍵幀、多軌剪輯，最高 4K 60 輸出；免費、沒浮水印、不用註冊、不用訂閱，全程離線在本機跑、素材不上傳。AGPL-3.0 開源。macOS（Intel＋Apple Silicon）／Windows／Linux／Android／iOS（側載）。最新 v0.2.12（2026-11-19），[Intel Mac 版直下](https://github.com/jub0t/Concat/releases/download/v0.2.12/Concat-0.2.12-macos-x86_64.dmg)
 
 > 內建 MCP server（`concat --mcp`）＋JSON-RPC API，Claude Code、Cursor 這類 Agent 可以直接指揮它剪片、寫腳本自動剪；自媒體短影音能用上。2026-08-25 建倉，還在 beta 版（v0.2.x），安裝包未簽名，macOS 要跑 `xattr -dr com.apple.quarantine /Applications/Concat.app` 才能開；先收著，等電腦連上再裝。星標核實於 2026-11-26。
+
+### jakubkrehel/skills（介面設計 Skill 合集）
+
+- **jakubkrehel/skills**【電腦】（⭐ 12837）—— [jakubkrehel/skills](https://github.com/jakubkrehel/skills)：16 個教 Agent 把介面做漂亮的 skill：整體審查（better-interface）、UI 打磨（better-ui）、動效（better-motion）、字體（better-typography）、配色（better-colors）、無障礙（better-accessibility）、排版（better-layout）、文案（better-writing），另有從 Figma 照著做（build-design）、一次出多個版本挑（variant）、離開時自動找改進點（afk）等。MIT 開源，純 Markdown。作者 Jakub Krehel，寫 Interfaces 設計工程雜誌。裝法 `npx skills add jakubkrehel/skills`。
+
+> 做 Space 和接案落地頁時打磨介面用；跟 Refero Styles 互補（Refero 是抄別人的設計系統，這套是教怎麼做才好看）。星標核實於 2026-11-26。
