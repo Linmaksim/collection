@@ -293,3 +293,9 @@
 - **ModelScope**【手机＋电脑】（⭐ 9230）—— [modelscope/modelscope](https://github.com/modelscope/modelscope)：阿里巴巴的开源“模型即服务”平台，含模型库、数据集、创空间（可直接在线体验的小应用）；中文界面，覆盖文生文、文生图、文生视频、语音合成、语音识别、抠图等；创空间里 BRIA RMBG 3.0 智能抠图、TTS 文字转语音、文生像素画、实时语音对话、文生图编辑可直接玩。Apache-2.0 开源。官网 https://www.modelscope.cn/ 。
 
 > CPU 资源长期免费、GPU 算力限额免费，但免费 GPU 要注册并绑定阿里云账号，具体限额、时长、GPU 型号首页没写、未核实；各模型商用许可要逐个看，不能默认拿来接案就商用。星标核实于 2026-11-27。
+
+### AstrBot（一站式 AI 聊天機器人平台）
+
+- **AstrBot**【電腦】（⭐ 47590）—— [AstrBotDevs/AstrBot](https://github.com/AstrBotDevs/AstrBot)：開源一站式 AI 聊天機器人平台（Python），接 QQ、微信公眾號、Telegram、Slack、Discord、LINE 等即時通訊軟體；模型支援 OpenAI 相容、Gemini、DeepSeek、Ollama、ModelScope 等；帶 MCP、Skills、知識庫、人格設定、1000+ 外掛、WebUI。AGPL-3.0 開源。部署用 uv 一鍵裝或 Docker。
+
+> 個人微信接不了（只支援微信公眾號），LINE 可以走它；要一台 24 小時在線的機器跑。2022-12-08 建倉，持續更新。星標核實於 2026-11-27。
