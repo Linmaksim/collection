@@ -244,6 +244,18 @@
 
 > 部署要 Cloudflare 帳號＋GitHub 帳號，面板免費跑在 Workers 上；Agent 只上報、不接遠端指令，沒有 WebSSH，安全性較好。先收著，裝不裝等 2026-11-26 晚上 20:00 再定。星標核實於 2026-11-26。
 
+### MuseLink（讓 Muse 連上 Windows 電腦）
+
+- **MuseLink**（⭐ 37）—— [Aenvo/MuseLink](https://github.com/Aenvo/MuseLink)：讓 Muse 連上已授權的 Windows 電腦、讀寫檔案並在沙箱裡跑命令的桌面 App（Tauri 2 + Rust）；按資料夾授權、白名單、審批彈窗，預設不碰 `~/.ssh`、`~/.aws` 等敏感目錄；對外走 Tailscale Funnel 或 Cloudflare 命名隧道。MIT 開源。最新 v0.2.1（2026-11-25）。
+
+> 只支援 Windows，MacBook 裝不了，只能裝家裡 24 小時掛機的台式機（如果是 Windows）；才建 2 天、還很新，安裝包未簽名；先收著觀察，等星數上去、穩定了再試裝。星標核實於 2026-11-26。
+
+### 叠号（多帳號＋多智能體群聊）
+
+- **叠号**（⭐ 253）—— [ldjx7/multi-agent-account-manager](https://github.com/ldjx7/multi-agent-account-manager)：跨平台（macOS／Windows／Android／iOS）AI 助手多帳號隔離與快速切換工具（Tauri 2 + Rust）；Muse、Hark 各帳號獨立會話、獨立 Cookie，一鍵切換並同步剩餘額度；多帳號群聊協作（並行討論、評審流、A2A 接力），可拉 Muse、Hark、外部 API／本地 CLI 工具同群協作；局域網掃碼 AES-256-GCM 端到端加密同步。Apache-2.0 開源。最新 v0.2.0（2026-11-26）。
+
+> 出自 LINUX DO 社區；Cookie 導入登入等於把登入會話交給 App，先別拿主力號試；自動審批權限請求預設關閉、別開；iOS 版是未簽名 ipa 要側載，macOS 版直接裝。先收著觀察，等成熟一點再試。星標核實於 2026-11-26。
+
 ### Refero Styles（設計風格參考庫）
 
 - **Refero Styles**—— [styles.refero.design](https://styles.refero.design/)：2000 多套知名產品的設計系統，每套含配色、字體、間距、組件，附一份 DESIGN.md 可直接餵給 Cursor、Claude Code、Codex、v0、Lovable。收錄 Apple、Linear、Raycast、Superhuman、Perplexity、Figma、Cursor、Wise、Intercom 等產品風格。
