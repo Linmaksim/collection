@@ -275,3 +275,9 @@
 - **WinRust**【電腦】（⭐ 875）—— [Lemxy/WinRust](https://github.com/Lemxy/WinRust)：用 Rust 寫的 Windows 外殼替代品，一個安裝包換掉任務欄、檔案總管、檔案搜尋、任務管理器，另附磁碟清理、磁碟用量圖、照片檢視器；自帶遊戲／工作模式、去遙測、關 Copilot 與 Recall。Apache-2.0 開源，免費。Windows 10／11 x64。
 
 > 才建 4 天（2026-11-17），還很新；會關 Windows Search、藏任務欄、把 Explorer 換掉，安裝包未簽名、SmartScreen 會警告，作者建議先在備用機或虛擬機試；主力機與公司電腦不要裝。先收著觀察，半個月看一次版本與穩定度。星標核實於 2026-11-21。
+
+### Concat（開源免費剪片軟體，CapCut 替代品）
+
+- **Concat**【手機＋電腦】（⭐ 21003）—— [jub0t/Concat](https://github.com/jub0t/Concat)：開源免費的跨平台影片剪輯器（Rust），自稱 CapCut 的開源替代品：自動字幕、人聲分離、文字轉語音加聲音複製、去背、關鍵幀、多軌剪輯，最高 4K 60 輸出；免費、沒浮水印、不用註冊、不用訂閱，全程離線在本機跑、素材不上傳。AGPL-3.0 開源。macOS（Intel＋Apple Silicon）／Windows／Linux／Android／iOS（側載）。最新 v0.2.12（2026-11-19），[Intel Mac 版直下](https://github.com/jub0t/Concat/releases/download/v0.2.12/Concat-0.2.12-macos-x86_64.dmg)
+
+> 內建 MCP server（`concat --mcp`）＋JSON-RPC API，Claude Code、Cursor 這類 Agent 可以直接指揮它剪片、寫腳本自動剪；自媒體短影音能用上。2026-08-25 建倉，還在 beta 版（v0.2.x），安裝包未簽名，macOS 要跑 `xattr -dr com.apple.quarantine /Applications/Concat.app` 才能開；先收著，等電腦連上再裝。星標核實於 2026-11-26。
