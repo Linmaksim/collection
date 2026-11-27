@@ -299,3 +299,9 @@
 - **AstrBot**【電腦】（⭐ 47590）—— [AstrBotDevs/AstrBot](https://github.com/AstrBotDevs/AstrBot)：開源一站式 AI 聊天機器人平台（Python），接 QQ、微信公眾號、Telegram、Slack、Discord、LINE 等即時通訊軟體；模型支援 OpenAI 相容、Gemini、DeepSeek、Ollama、ModelScope 等；帶 MCP、Skills、知識庫、人格設定、1000+ 外掛、WebUI。AGPL-3.0 開源。部署用 uv 一鍵裝或 Docker。
 
 > 個人微信接不了（只支援微信公眾號），LINE 可以走它；要一台 24 小時在線的機器跑。2022-12-08 建倉，持續更新。星標核實於 2026-11-27。
+
+### 趨勢判斷工作台（綜合趨勢工作台，纏論看盤）
+
+- **趨勢判斷工作台**【手機＋電腦】（⭐ 241）—— [nhovongoc0-max/trend-workbench](https://github.com/nhovongoc0-max/trend-workbench)：DeFi狙擊手做的本地趨勢判斷工作台（TypeScript），搜標的、選周期，在 K 線上看纏論中樞、方向、入場區間、止損和兩檔止盈；多周期 1 小時／4 小時／日線同看，方向成績單走夠 12 根 K 線再核對；支援美股、港股、A股、加密貨幣、大宗商品、國內期貨、股指期貨、加密永續。Apache-2.0 開源免費。Windows／macOS，[免費網頁版](https://www.hash-123.com/)（點行情看盤 → 趨勢判斷工作台）。
+
+> Mac 版只出 Apple Silicon（arm64），Intel Mac 裝不了；港股「搜任意標的直達分析」是下個版本，現行 V2.0.0 還沒有；方向評分是結構評分、不是勝率。2026-11-19 才建倉，還很新。星標核實於 2026-11-27。
