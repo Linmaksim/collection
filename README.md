@@ -6,16 +6,16 @@
 
 ## 目錄
 
-- [影音娛樂](#影音娛樂) — 紅果 TV、HGhubX、Jellyfin、NewPipe、AvPlay
-- [下載工具](#下載工具) — LibreGet、Cloudn
-- [AI 技能與提示詞](#ai-技能與提示詞) — anthropics/skills、obra/superpowers、wshobson/agents、jakubkrehel/skills、系統提示詞泄露合集、zh-tw-humanizer、speak-human-tw
-- [AI 程式與開發工具](#ai-程式與開發工具) — Cursor、Bolt.new、LocModel、ModelScope、DSH-Android、AstrBot、MuseLink、Agent-Reach、Gemini API CLI、叠号
-- [內容創作](#內容創作) — MoneyPrinterTurbo、F5-TTS、VoiceStudio、Voicebox、SadTalker、Upscayl、Raphael、Clipdrop、Concat、Napkin、Marp
+- [影音娛樂](#影音娛樂) — 紅果 TV、HGhubX、Jellyfin、NewPipe、AvPlay、短劇之家、紅果桌面端、BoxPlayer、MarcoMovie、IPTV、TVAPP
+- [下載工具](#下載工具) — LibreGet、Cloudn、yt-dlp
+- [AI 技能與提示詞](#ai-技能與提示詞) — anthropics/skills、obra/superpowers、wshobson/agents、jakubkrehel/skills、系統提示詞泄露合集、zh-tw-humanizer、speak-human-tw、agency-agents
+- [AI 程式與開發工具](#ai-程式與開發工具) — Cursor、Bolt.new、LocModel、ModelScope、DSH-Android、AstrBot、MuseLink、Agent-Reach、Gemini API CLI、叠号、nanoMuse
+- [內容創作](#內容創作) — MoneyPrinterTurbo、F5-TTS、VoiceStudio、Voicebox、SadTalker、Upscayl、Raphael、Clipdrop、Concat、Napkin、Marp、BackgroundMattingV2
 - [自媒體發布](#自媒體發布) — MatrixMedia、麥田、CreatorHub
 - [設計參考](#設計參考) — 設計風格庫、Refero Styles
-- [投資看盤](#投資看盤) — twradar、趨勢判斷工作台、everything-claude-trading
-- [辦公效率](#辦公效率) — Univer、Linkit、Perplexity、琦琦輸入法、sniplite
-- [系統與網路](#系統與網路) — Pi-hole、Win11Debloat、WinRust、CF-Server-Monitor、Wireless-Device-Battery-Monitor、Awesome Android Root
+- [投資看盤](#投資看盤) — twradar、趨勢判斷工作台、everything-claude-trading、easy-stock
+- [辦公效率](#辦公效率) — Univer、Linkit、Perplexity、琦琦輸入法、sniplite、kiss-translator、github-chinese
+- [系統與網路](#系統與網路) — Pi-hole、Win11Debloat、WinRust、CF-Server-Monitor、Wireless-Device-Battery-Monitor、Awesome Android Root、karing、android-ad-cleaner、cleanyourtv、dailycheckin、qinglong、ios_rule_script、FlClash、GeoIP2-CN
 
 ## 影音娛樂
 
@@ -54,6 +54,30 @@
 
 > AvPlay 為 18+ 成人內容，作者聲明僅供研究與學習；版本核實於 2026-11-14。
 
+### 短劇之家 TV 版（紅果短劇電視播放器）
+
+- **短劇之家**（⭐ 427）—— [jackherex/duanjuzhijia-down-tv](https://github.com/jackherex/duanjuzhijia-down-tv)：紅果短劇 TV 版播放器，電視盒子／智能電視用，遙控器操作，支援搜尋、收藏、選集，可與手機、電腦同步觀看進度。2026-11-26 仍更新。星標核實於 2026-11-28。
+
+### 紅果桌面端（紅果短劇電腦版）
+
+- **紅果桌面端**（⭐ 6532）—— [waligoraamodio288-rgb/hongguo-desktop-releases](https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases)：紅果短劇電腦版，渠道有數獨立維護的免費第三方客戶端；Windows 10/11 x64 無需安卓模擬器，另有 Mac 雙架構和 Android TV 版。星標核實於 2026-11-28。
+
+### BoxPlayer（聚合網盤＋影視聚合）
+
+- **BoxPlayer**【手機＋電腦】（⭐ 7994）—— [gaozhangmin/boxplayer](https://github.com/gaozhangmin/boxplayer)：聚合網盤管理＋影視聚合（TypeScript，GPL-3.0），支援 Windows、Linux、iOS、macOS、tvOS、Android。星標核實於 2026-11-28。
+
+### MarcoMovie（多端自適應播放器）
+
+- **MarcoMovie**【手機＋電腦】（⭐ 1371）—— [Pilipala9919/MarcoMovie](https://github.com/Pilipala9919/MarcoMovie)：多端自適應播放器（Java，GPL-3.0），支援 Android 電視／手機／平板、Apple TV、HarmonyOS NEXT、iOS／iPadOS、Windows、macOS；只提供工具、不含影視資源。星標核實於 2026-11-28。
+
+### IPTV（免費電視頻道 M3U）
+
+- **IPTV**（⭐ 22324）—— [Free-TV/IPTV](https://github.com/Free-TV/IPTV)：免費電視頻道 M3U 播放清單。星標核實於 2026-11-28。
+
+### TVAPP（電視盒子應用合集）
+
+- **TVAPP**（⭐ 29641）—— [youhunwl/TVAPP](https://github.com/youhunwl/TVAPP)：收集全網 Android TV 電視盒子應用（JavaScript，Apache-2.0）：影視、直播、K 歌、工具、遊戲，整理優質 APK 資源，支援便捷下載與自動更新；另提供 TVBox／影視倉接口配置源。星標核實於 2026-11-28。
+
 ## 下載工具
 
 ### LibreGet（OmniGet，下載管理器）
@@ -69,6 +93,10 @@
 - **Cloudn**【手機】（⭐ 65）—— [mengangs/Cloudn](https://github.com/mengangs/Cloudn)：iOS 下載 App（SwiftUI，iOS 17+），貼連結就能解析下載：短視頻與圖集（抖音、快手、小紅書、B 站、YouTube、X、TikTok、Instagram、Threads 等近 50 個平台，去水印、挑畫質、字幕 SRT）、網盤分享（夸克、百度、阿里、Google Drive、OneDrive 等）、磁力／BT、GitHub 連結。開源免費無廣告，解析全在手機本地完成。最新 v1.4.1（2026-10-24），[IPA 直下（8.6 MB）](https://github.com/mengangs/Cloudn/releases/download/v1.4.1/Cloudn-v1.4.1.ipa)
 
 > 沒上 App Store，要用 AltStore／SideStore／Sideloadly／TrollStore 自己簽名安裝；優酷、愛奇藝、騰訊因 DRM 不支援。版本核實於 2026-11-14。
+
+### yt-dlp（命令列影音下載器）
+
+- **yt-dlp**【電腦】（⭐ 211165）—— [yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp)：功能豐富的命令列影音下載器（Python，Unlicense），支援上千個網站。星標核實於 2026-11-28。
 
 ## AI 技能與提示詞
 
@@ -115,6 +143,10 @@
 - **speak-human-tw**【電腦】（⭐ 1216）—— [Raymondhou0917/speak-human-tw](https://github.com/Raymondhou0917/speak-human-tw)：繁體中文去 AI 味 skill（Python，MIT），38 種 AI 痕跡、60 多組台灣用語對照、42 條評測（27 條該改必中＋15 條不可誤殺）；保護價格／優惠碼／連結／真名原話／承諾條款不動；預設先列清單等勾選才動筆。
 
 > 我們拿它當寫手：文章、發文（社群貼文、電子報）走它，改完由 zh-tw-humanizer 的 check.py 驗收；一般中文潤色走 humanizer-zh。已裝進 custom-skills/speak-human-tw（v1.4.0），直接套用、不用先列清單等勾（他 2026-11-28 定）。星標核實於 2026-11-28。
+
+### agency-agents（AI 代理團隊）
+
+- **agency-agents**【電腦】（⭐ 170594）—— [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents)：一整套 AI 代理團隊（Shell，MIT）：前端、社群、寫作等各路專家，帶人設、流程與交付物。星標核實於 2026-11-28。
 
 ## AI 程式與開發工具
 
@@ -188,6 +220,10 @@
 
 > 出自 LINUX DO 社區；Cookie 導入登入等於把登入會話交給 App，先別拿主力號試；自動審批權限請求預設關閉、別開；iOS 版是未簽名 ipa 要側載，macOS 版直接裝。先收著觀察，等成熟一點再試。星標核實於 2026-11-26。
 
+### nanoMuse（個人 AI 助手）
+
+- **nanoMuse**【手機＋電腦】（⭐ 3745）—— [nano-muse/nanoMuse](https://github.com/nano-muse/nanoMuse)：開源個人 AI 助手（Kotlin，GPL-3.0）：一個有名字、有形象的助手，幫你做事、關掉 App 也繼續跑、記得你，做不可逆的事之前先問你；Android、iPhone、Windows、macOS、Linux、瀏覽器都能用。星標核實於 2026-11-28。
+
 ## 內容創作
 
 ### MoneyPrinterTurbo（主題一鍵生成短視頻）
@@ -259,6 +295,10 @@
 
 - **Marp**【電腦】（⭐ 3925）—— [marp-team/marp-cli](https://github.com/marp-team/marp-cli)：Marp 的命令列工具，Markdown 文章直接轉成投影片（HTML／PDF／PPT）。MIT 開源。
 
+### BackgroundMattingV2（即時高畫質去背）
+
+- **BackgroundMattingV2**【電腦】（⭐ 7216）—— [PeterL1n/BackgroundMattingV2](https://github.com/PeterL1n/BackgroundMattingV2)：即時高解析度背景去背（Python，MIT），人像摳圖不用綠幕。星標核實於 2026-11-28。
+
 ## 自媒體發布
 
 ### MatrixMedia（矩媒，影片矩陣一鍵發布）
@@ -321,6 +361,10 @@
 
 > 本身不接交易所、不自動下單，只是一套分析方法與流程；僅 1 個 commit（2026-03-14），成熟度一般，skill 是文字方法論、思路可借鑑。星標核實於 2026-11-15。
 
+### easy-stock（A 股 AI 投研）
+
+- **easy-stock**【電腦】（⭐ 2080）—— [jundizhou/easy-stock](https://github.com/jundizhou/easy-stock)：A 股 AI 投研（Go）。星標核實於 2026-11-28。
+
 ## 辦公效率
 
 ### Univer（開源 Office SDK，表格／文件／簡報）
@@ -357,6 +401,14 @@
 - **sniplite**【電腦】（⭐ 81）—— [MrTangLuyao/sniplite](https://github.com/MrTangLuyao/sniplite)：Windows 截圖貼圖工具，有 Snipaste 的核心功能、更快更輕：F1 截圖（自動識別窗口與控制項、帶放大鏡）、標註（圈、箭頭、文字、序號、馬賽克）、F3 把圖片或文字釘在螢幕上、命令列呼叫；安裝包約 300KB，核心用組合語言＋C 寫，不依賴 C 運行庫。MIT 開源，免費。Windows 10／11。
 
 > 2026-11-09 建倉、11-14 在小眾軟件論壇發佈，還很新；安裝包沒有數字簽名，Windows 會攔一下。另有同名 C# 項目 GxDongV/SnipLite（90 星），是不同作者、不同工具，不要認錯。星標核實於 2026-11-16。
+
+### kiss-translator（雙語對照翻譯）
+
+- **kiss-translator**【電腦】（⭐ 13555）—— [fishjar/kiss-translator](https://github.com/fishjar/kiss-translator)：簡約開源的雙語對照翻譯擴充功能與油猴腳本（JavaScript，GPL-3.0）。星標核實於 2026-11-28。
+
+### github-chinese（GitHub 中文介面）
+
+- **github-chinese**【電腦】（⭐ 1092）—— [setube/github-chinese](https://github.com/setube/github-chinese)：把 GitHub 介面翻成簡體／繁體中文的瀏覽器擴充功能（TypeScript，MIT），另附下載加速、搜尋淨化等小功能（Chrome、Edge、Firefox、Safari）。星標核實於 2026-11-28。
 
 ## 系統與網路
 
@@ -399,3 +451,39 @@
 - **Awesome Android Root**【手機＋電腦】（⭐ 6250）—— [awesome-android-root/awesome-android-root](https://github.com/awesome-android-root/awesome-android-root)：社區維護的安卓 Root 知識庫，750 多個 Root 應用和 Magisk、KernelSU、APatch、LSPosed 模組，各品牌手機 Root 教程（Pixel、三星、小米、一加、Nothing、摩托羅拉），去廣告、精簡系統、備份、Play Integrity 等專題。網站 [awesome-android-root.xyz](https://awesome-android-root.xyz/) 可直接搜尋。
 
 > 以後想折騰安卓平板（聯想 Y700）時當參考查；主力機是 iPhone 不走 Root，Y700 當初特意選了不用刷機不用 Root 的方案，Root 有變磚、銀行 App 過不了驗證的風險，現在不動手。星標核實於 2026-11-21。
+
+### karing（代理工具）
+
+- **karing**【手機＋電腦】（⭐ 16384）—— [KaringX/karing](https://github.com/KaringX/karing)：簡單好用的代理工具（Dart），支援 clash／sing-box 路由規則。
+
+> 我們自己 fork 的是 Linmaksim/karing，這裡收的是上游。星標核實於 2026-11-28。
+
+### android-ad-cleaner（安卓去廣告）
+
+- **android-ad-cleaner**【手機】（⭐ 9076）—— [rddmwmddr/android-ad-cleaner](https://github.com/rddmwmddr/android-ad-cleaner)：關掉國產安卓手機系統裡的廣告、熱搜、資訊推薦和行銷推送（Python，MIT）；不 root、可還原，支援 AI 智能體一鍵執行。星標核實於 2026-11-28。
+
+### cleanyourtv（安卓電視去臃腫）
+
+- **cleanyourtv**【手機】（⭐ 61381）—— [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv)：透過 Wi-Fi 給安卓電視／Google TV 瘦身去臃腫，變成 Apple TV 風格的首頁（Python）。星標核實於 2026-11-28。
+
+### dailycheckin（每日簽到腳本）
+
+- **dailycheckin**【電腦】（⭐ 8773）—— [Sitoi/dailycheckin](https://github.com/Sitoi/dailycheckin)：基於 Docker／青龍面板／群暉的每日簽到腳本（Python，MIT，支援多帳號）：愛奇藝、Bilibili、百度貼吧、什麼值得買等。星標核實於 2026-11-28。
+
+### qinglong（青龍面板）
+
+- **qinglong**【電腦】（⭐ 20121）—— [whyour/qinglong](https://github.com/whyour/qinglong)：支援 Python3、JavaScript、Shell、TypeScript 的定時任務管理平台（JavaScript，Apache-2.0）。
+
+> 簽到／優惠腳本要跑它，需要一台 24 小時開著的主機。星標核實於 2026-11-28。
+
+### ios_rule_script（iOS 分流規則）
+
+- **ios_rule_script**【手機】（⭐ 28814）—— [blackmatrix7/ios_rule_script](https://github.com/blackmatrix7/ios_rule_script)：iOS 分流規則、重寫規則與腳本合集（JavaScript，GPL-2.0），Quantumult X、Surge、Loon 等都能用。星標核實於 2026-11-28。
+
+### FlClash（多平台代理客戶端）
+
+- **FlClash**【手機＋電腦】（⭐ 65901）—— [Vialibrex/FlClash](https://github.com/Vialibrex/FlClash)：基於 ClashMeta 的多平台代理客戶端（Dart，GPL-3.0），簡單好用、開源無廣告。星標核實於 2026-11-28。
+
+### GeoIP2-CN（GeoIP2 資料庫）
+
+- **GeoIP2-CN**【電腦】（⭐ 7464）—— [Hackl0us/GeoIP2-CN](https://github.com/Hackl0us/GeoIP2-CN)：小巧精悍、準確、實用的 GeoIP2 資料庫（Go，GPL-3.0）。星標核實於 2026-11-28。
