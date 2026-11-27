@@ -305,3 +305,9 @@
 - **趨勢判斷工作台**【手機＋電腦】（⭐ 241）—— [nhovongoc0-max/trend-workbench](https://github.com/nhovongoc0-max/trend-workbench)：DeFi狙擊手做的本地趨勢判斷工作台（TypeScript），搜標的、選周期，在 K 線上看纏論中樞、方向、入場區間、止損和兩檔止盈；多周期 1 小時／4 小時／日線同看，方向成績單走夠 12 根 K 線再核對；支援美股、港股、A股、加密貨幣、大宗商品、國內期貨、股指期貨、加密永續。Apache-2.0 開源免費。Windows／macOS，[免費網頁版](https://www.hash-123.com/)（點行情看盤 → 趨勢判斷工作台）。
 
 > Mac 版只出 Apple Silicon（arm64），Intel Mac 裝不了；港股「搜任意標的直達分析」是下個版本，現行 V2.0.0 還沒有；方向評分是結構評分、不是勝率。2026-11-19 才建倉，還很新。星標核實於 2026-11-27。
+
+### zh-tw-humanizer（台式中文去 AI 味編輯）
+
+- **zh-tw-humanizer**【電腦】（⭐ 11）—— [acchuang/zh-tw-humanizer](https://github.com/acchuang/zh-tw-humanizer)：台式中文去 AI 味編輯 skill（Python，MIT），把 AI 寫的繁體中文改寫成自然的台灣華語；62 種 AI 寫作特徵、183 組兩岸用語對照、保護價格／連結／引文不動；附離線檢查程式 check.py，改完對照原稿比對，數字、日期、網址掉了或憑空多出來會報出來，還掃簡體字、半形標點、隱形字元。
+
+> 我們拿它當檢查員用：speak-human-tw 負責改寫，改完跑 check.py 驗收；11 星，人很少，評測數字（0.99 對 0.84）是作者自己跑的 36 個案例，未獨立複核。已裝進 custom-skills/zh-tw-humanizer（v1.11.0，2026-11-27 更新）。星標核實於 2026-11-28。
