@@ -6,16 +6,16 @@
 
 ## 目錄
 
-- [影音娛樂](#影音娛樂) — 紅果 TV、HGhubX、Jellyfin、NewPipe、AvPlay、短劇之家、紅果桌面端、BoxPlayer、MarcoMovie、IPTV、TVAPP
-- [下載工具](#下載工具) — LibreGet、Cloudn、yt-dlp
+- [影音娛樂](#影音娛樂) — 紅果 TV、HGhubX、Jellyfin、NewPipe、AvPlay、短劇之家、紅果桌面端、BoxPlayer、MarcoMovie、IPTV、TVAPP、OrionTV、MoonTV、Dai-Hentai、ppcat_store、Cimoc、書源合集（shidahuilang、wpzwdz）、EhSyringe
+- [下載工具](#下載工具) — LibreGet、Cloudn、yt-dlp、video_vip
 - [AI 技能與提示詞](#ai-技能與提示詞) — anthropics/skills、obra/superpowers、wshobson/agents、jakubkrehel/skills、系統提示詞泄露合集、zh-tw-humanizer、speak-human-tw、agency-agents
-- [AI 程式與開發工具](#ai-程式與開發工具) — Cursor、Bolt.new、LocModel、ModelScope、DSH-Android、AstrBot、MuseLink、Agent-Reach、Gemini API CLI、叠号、nanoMuse
-- [內容創作](#內容創作) — MoneyPrinterTurbo、F5-TTS、VoiceStudio、Voicebox、SadTalker、Upscayl、Raphael、Clipdrop、Concat、Napkin、Marp、BackgroundMattingV2
+- [AI 程式與開發工具](#ai-程式與開發工具) — Cursor、Bolt.new、LocModel、ModelScope、DSH-Android、AstrBot、MuseLink、Agent-Reach、Gemini API CLI、叠号、nanoMuse、deer-flow、OpenMausBot、QySuperBot、botdrop-android、Python 練習、dsh-Go
+- [內容創作](#內容創作) — MoneyPrinterTurbo、F5-TTS、VoiceStudio、Voicebox、SadTalker、Upscayl、Raphael、Clipdrop、Concat、Napkin、Marp、BackgroundMattingV2、voice-skill
 - [自媒體發布](#自媒體發布) — MatrixMedia、麥田、CreatorHub
-- [設計參考](#設計參考) — 設計風格庫、Refero Styles
+- [設計參考](#設計參考) — 設計風格庫、Refero Styles、IconResource、mini
 - [投資看盤](#投資看盤) — twradar、趨勢判斷工作台、everything-claude-trading、easy-stock
-- [辦公效率](#辦公效率) — Univer、Linkit、Perplexity、琦琦輸入法、sniplite、kiss-translator、github-chinese
-- [系統與網路](#系統與網路) — Pi-hole、Win11Debloat、WinRust、CF-Server-Monitor、Wireless-Device-Battery-Monitor、Awesome Android Root、karing、android-ad-cleaner、cleanyourtv、dailycheckin、qinglong、ios_rule_script、FlClash、GeoIP2-CN
+- [辦公效率](#辦公效率) — Univer、Linkit、Perplexity、琦琦輸入法、sniplite、kiss-translator、github-chinese、FluentRead
+- [系統與網路](#系統與網路) — Pi-hole、Win11Debloat、WinRust、CF-Server-Monitor、Wireless-Device-Battery-Monitor、Awesome Android Root、karing、android-ad-cleaner、cleanyourtv、dailycheckin、qinglong、ios_rule_script、FlClash、GeoIP2-CN、wechat-bridge、JDMemberCloseAccount、jd_yun、JD-Script、schedule-jd、jd_sign_bot、jd-code-assist、淘金幣（JavisPeng、zero205、自己）、TikTok-Unlock、Loon 配置、節點一鍵腳本、CleanMyPc、TelegramGroup、Shadowrocket、Shadowrocket-First、Quantumult_X、Script、QuantumultX（w37fhy、id77、Orz-3、songyangzz）、Adblock4limbo、Profiles4limbo、QuantumultX-Script、rules、Quantumult-X、Rules-For-Quantumult-X、scripts、boxjs-doc、Rules、ND-AD、AdBlockByIOS、Scriptable（anker1209、dompling、gideonsenku）、Tampermonkey、GM_script、Profiles、enen、Script、server-chan、c1yy.github.io
 
 ## 影音娛樂
 
@@ -78,6 +78,31 @@
 
 - **TVAPP**（⭐ 29641）—— [youhunwl/TVAPP](https://github.com/youhunwl/TVAPP)：收集全網 Android TV 電視盒子應用（JavaScript，Apache-2.0）：影視、直播、K 歌、工具、遊戲，整理優質 APK 資源，支援便捷下載與自動更新；另提供 TVBox／影視倉接口配置源。星標核實於 2026-11-28。
 
+### OrionTV（播放器）
+
+- **OrionTV**（⭐ 5707）—— [orion-lib/OrionTV](https://github.com/orion-lib/OrionTV)：基於 React Native TVOS 與 Expo 構建的播放器，追求流暢的觀看體驗。（TypeScript）星標核實於 2026-11-28。
+### MoonTV（影視聚合播放站）
+
+- **MoonTV**（⭐ 4）—— [Minerchu/MoonTV](https://github.com/Minerchu/MoonTV)：開箱即用的跨平台影視聚合播放站。（TypeScript，MIT）最後更新 2025-08-04。星標核實於 2026-11-28。
+### Dai-Hentai（看漫畫 App）
+
+- **Dai-Hentai**【手機】（⭐ 1274）—— [DaidoujiChen/Dai-Hentai](https://github.com/DaidoujiChen/Dai-Hentai)：一個普通的看漫畫 App。（Objective-C）最後更新 2024-12-05。星標核實於 2026-11-28。
+### ppcat_store（皮皮喵來源）
+
+- **ppcat_store**（⭐ 350）—— [AcgLibrary/ppcat_store](https://github.com/AcgLibrary/ppcat_store)：皮皮喵來源倉庫。（GPL-3.0）最後更新 2021-02-02。星標核實於 2026-11-28。
+### Cimoc（漫畫閱讀器）
+
+- **Cimoc**【手機】（⭐ 2361）—— [feilongfl/Cimoc](https://github.com/feilongfl/Cimoc)：Android 平台線上漫畫閱讀器。（Java，GPL-3.0）最後更新 2020-10-12。星標核實於 2026-11-28。
+### 書源合集（shidahuilang）
+
+- **書源合集**【手機】（⭐ 244）—— [shidahuilang/shuyuan-bak](https://github.com/shidahuilang/shuyuan-bak)：閱讀 App 書源合集：源閱、輕閱讀、番茄、書旗、起點、七貓、喜馬拉雅、短劇、漫畫、聽書等，自動更新。（Python，GPL-3.0）星標核實於 2026-11-28。
+### 書源合集（wpzwdz）
+
+- **書源合集**【手機】（⭐ 1）—— [wpzwdz/shuyuan-bak](https://github.com/wpzwdz/shuyuan-bak)：閱讀 App 書源合集，與 shidahuilang 的備份內容相同。（GPL-3.0）最後更新 2026-03-11。星標核實於 2026-11-28。
+### EhSyringe（E 站注射器）
+
+- **EhSyringe**【手機】（⭐ 3799）—— [EhTagTranslation/EhSyringe](https://github.com/EhTagTranslation/EhSyringe)：E 站注射器：把中文翻譯注入到 E 站體內。（TypeScript，MIT）星標核實於 2026-11-28。
+
 ## 下載工具
 
 ### LibreGet（OmniGet，下載管理器）
@@ -97,6 +122,10 @@
 ### yt-dlp（命令列影音下載器）
 
 - **yt-dlp**【電腦】（⭐ 211165）—— [yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp)：功能豐富的命令列影音下載器（Python，Unlicense），支援上千個網站。星標核實於 2026-11-28。
+
+### video_vip（全網 VIP 視頻破解）
+
+- **video_vip**【手機＋電腦】（⭐ 6989）—— [88lin/video_vip](https://github.com/88lin/video_vip)：全網 VIP 視頻免費破解腳本：集成多個第三方解析接口，去除廣告、解鎖會員限制；適配 PC＋手機（愛奇藝、騰訊、優酷等）。（JavaScript）星標核實於 2026-11-28。
 
 ## AI 技能與提示詞
 
@@ -224,6 +253,25 @@
 
 - **nanoMuse**【手機＋電腦】（⭐ 3745）—— [nano-muse/nanoMuse](https://github.com/nano-muse/nanoMuse)：開源個人 AI 助手（Kotlin，GPL-3.0）：一個有名字、有形象的助手，幫你做事、關掉 App 也繼續跑、記得你，做不可逆的事之前先問你；Android、iPhone、Windows、macOS、Linux、瀏覽器都能用。星標核實於 2026-11-28。
 
+### deer-flow（長時程 SuperAgent）
+
+- **deer-flow**【電腦】（⭐ 1）—— [Linmaksim/deer-flow](https://github.com/Linmaksim/deer-flow)：開源長時程 SuperAgent：研究、寫程式、創作，沙箱、記憶、工具、子代理、訊息閘道一應俱全，能處理幾分鐘到幾小時的任務。自己的 fork。（MIT）星標核實於 2026-11-28。
+### OpenMausBot（Grok Bot 替代品）
+
+- **OpenMausBot**【電腦】（⭐ 28497）—— [milind-soni/OpenMausBot](https://github.com/milind-soni/OpenMausBot)：開源 Grok Bot 替代品：給機器人配一台虛擬機用。（TypeScript，Apache-2.0）星標核實於 2026-11-28。
+### QySuperBot（超級機器人）
+
+- **QySuperBot**【電腦】（⭐ 7）—— [qianyubtc/QySuperBot](https://github.com/qianyubtc/QySuperBot)：芊羽超級機器人：聚合管理 Telegram、QQ、幣安聊天室，支援訊息同步、回覆與常規機器人功能。（TypeScript，MIT）星標核實於 2026-11-28。
+### botdrop-android（手機跑 AI 代理）
+
+- **botdrop-android**【手機】（⭐ 397）—— [zhixianio/botdrop-android](https://github.com/zhixianio/botdrop-android)：在安卓手機上跑 AI 代理：不用終端、不用命令列，跟著引導設定就行。（Java，GPL-3.0）星標核實於 2026-11-28。
+### Python 練習（Zy143L）
+
+- **Python 練習**【電腦】（⭐ 383）—— [Zy143L/python](https://github.com/Zy143L/python)：Python 練習。最後更新 2022-02-07。星標核實於 2026-11-28。
+### dsh-Go（手機版 DeepSeek Harness）
+
+- **dsh-Go**【手機】（⭐ 33253）—— [ccch1mneyyy/dsh-Go](https://github.com/ccch1mneyyy/dsh-Go)：dsh-go：DeepSeek Harness 裝進口袋，手機本機運行，也能遙控電腦。平板上已升到 v1.4.0。（Dart，AGPL-3.0）星標核實於 2026-11-28。
+
 ## 內容創作
 
 ### MoneyPrinterTurbo（主題一鍵生成短視頻）
@@ -299,6 +347,10 @@
 
 - **BackgroundMattingV2**【電腦】（⭐ 7216）—— [PeterL1n/BackgroundMattingV2](https://github.com/PeterL1n/BackgroundMattingV2)：即時高解析度背景去背（Python，MIT），人像摳圖不用綠幕。星標核實於 2026-11-28。
 
+### voice-skill（教 AI 寫得像你）
+
+- **voice-skill**【電腦】（⭐ 320）—— [getlago/inside-lago-voice-skill](https://github.com/getlago/inside-lago-voice-skill)：教 AI 寫得像你自己的框架：寫得像你，而不是寫得比你更好。最後更新 2026-04-13。星標核實於 2026-11-28。
+
 ## 自媒體發布
 
 ### MatrixMedia（矩媒，影片矩陣一鍵發布）
@@ -337,6 +389,13 @@
 - **Refero Styles**【手機＋電腦】—— [styles.refero.design](https://styles.refero.design/)：2000 多套知名產品的設計系統，每套含配色、字體、間距、組件，附一份 DESIGN.md 可直接餵給 Cursor、Claude Code、Codex、v0、Lovable。收錄 Apple、Linear、Raycast、Superhuman、Perplexity、Figma、Cursor、Wise、Intercom 等產品風格。
 
 > 做 Space 和接案落地頁時，照著 Linear 或 Raycast 的 DESIGN.md 排版面；與 UNIT-09 建站員的 Bolt.new demo 搭配用。現階段 Beta，每週新增風格。核實於 2026-11-21。
+
+### IconResource（iOS 圖標收集）
+
+- **IconResource**【手機】（⭐ 200）—— [luestr/IconResource](https://github.com/luestr/IconResource)：收集整理的 iOS 應用圖標與部分網站圖標。（NOASSERTION）星標核實於 2026-11-28。
+### mini（mini icon）
+
+- **mini**【手機】（⭐ 2211）—— [Orz-3/mini](https://github.com/Orz-3/mini)：mini icon 圖標合集。最後更新 2025-10-10。星標核實於 2026-11-28。
 
 ## 投資看盤
 
@@ -409,6 +468,10 @@
 ### github-chinese（GitHub 中文介面）
 
 - **github-chinese**【電腦】（⭐ 1092）—— [setube/github-chinese](https://github.com/setube/github-chinese)：把 GitHub 介面翻成簡體／繁體中文的瀏覽器擴充功能（TypeScript，MIT），另附下載加速、搜尋淨化等小功能（Chrome、Edge、Firefox、Safari）。星標核實於 2026-11-28。
+
+### FluentRead（雙語翻譯插件）
+
+- **FluentRead**【電腦】（⭐ 11212）—— [FluentRead/FluentRead](https://github.com/FluentRead/FluentRead)：開源瀏覽器雙語翻譯插件。（TypeScript，GPL-3.0）星標核實於 2026-11-28。
 
 ## 系統與網路
 
@@ -487,3 +550,136 @@
 ### GeoIP2-CN（GeoIP2 資料庫）
 
 - **GeoIP2-CN**【電腦】（⭐ 7464）—— [Hackl0us/GeoIP2-CN](https://github.com/Hackl0us/GeoIP2-CN)：小巧精悍、準確、實用的 GeoIP2 資料庫（Go，GPL-3.0）。星標核實於 2026-11-28。
+
+### wechat-bridge（微信橋接）
+
+- **wechat-bridge**【電腦】（⭐ 68）—— [Liu-zhongxian/wechat-bridge](https://github.com/Liu-zhongxian/wechat-bridge)：微信官方 iLink 橋接：文本、圖片、影片、檔案雙向收發。我們現在用的就是它。（Python，MIT）星標核實於 2026-11-28。
+### JDMemberCloseAccount（京東退會）
+
+- **JDMemberCloseAccount**【電腦】（⭐ 1199）—— [yqchilde/JDMemberCloseAccount](https://github.com/yqchilde/JDMemberCloseAccount)：用 Python＋Selenium 學操作瀏覽器的小例子，也是一種京東全自動退會方案。（Python，MIT）最後更新 2022-06-06。星標核實於 2026-11-28。
+### jd_yun（京東雲函數）
+
+- **jd_yun**【電腦】（⭐ 621）—— [lukesyy/jd_yun](https://github.com/lukesyy/jd_yun)：京東雲函數與青龍面板腳本。（JavaScript，MIT）最後更新 2024-04-23。星標核實於 2026-11-28。
+### JD-Script（京東腳本）
+
+- **JD-Script**【電腦】（⭐ 1116）—— [curtinlv/JD-Script](https://github.com/curtinlv/JD-Script)：京東腳本合集，僅供參考。（Python，MIT）星標核實於 2026-11-28。
+### schedule-jd（京東簽到）
+
+- **schedule-jd**【電腦】（⭐ 34）—— [xiaoxiunique/schedule-jd](https://github.com/xiaoxiunique/schedule-jd)：京東每日簽到任務。（JavaScript）最後更新 2021-02-04。星標核實於 2026-11-28。
+### jd_sign_bot（京東簽到機器人）
+
+- **jd_sign_bot**【電腦】（⭐ 4354）—— [ruicky/jd_sign_bot](https://github.com/ruicky/jd_sign_bot)：京東簽到機器人。最後更新 2021-09-29。星標核實於 2026-11-28。
+### jd-code-assist（京東助力碼）
+
+- **jd-code-assist**【電腦】（⭐ 4）—— [xheiop/jd-code-assist](https://github.com/xheiop/jd-code-assist)：一鍵提交京東助力碼。（Python）最後更新 2020-12-15。星標核實於 2026-11-28。
+### 淘金幣（JavisPeng）
+
+- **淘金幣**【電腦】（⭐ 1480）—— [JavisPeng/taojinbi](https://github.com/JavisPeng/taojinbi)：淘寶淘金幣自動執行腳本：螞蟻森林收能量、芭芭農場全任務，解放雙手。（JavaScript，GPL-3.0）最後更新 2021-08-03。星標核實於 2026-11-28。
+### 淘金幣（zero205）
+
+- **淘金幣**【電腦】（⭐ 22）—— [zero205/taojinbi](https://github.com/zero205/taojinbi)：淘寶淘金幣自動執行腳本，解放雙手。（JavaScript，GPL-3.0）最後更新 2021-06-26。星標核實於 2026-11-28。
+### 淘金幣（自己的）
+
+- **淘金幣**【電腦】（⭐ 1）—— [Linmaksim/taojinbi](https://github.com/Linmaksim/taojinbi)：淘寶淘金幣自動執行腳本：螞蟻森林收能量、芭芭農場全任務。自己的倉庫。（GPL-3.0）最後更新 2021-04-06。星標核實於 2026-11-28。
+### TikTok-Unlock（TikTok 解鎖）
+
+- **TikTok-Unlock**【手機】（⭐ 12274）—— [Semporia/TikTok-Unlock](https://github.com/Semporia/TikTok-Unlock)：TikTok 無需拔卡解鎖：支援 iPhone／iPad、TikTok 與 TestFlight，地區切換、發佈影片、直播。（JavaScript）星標核實於 2026-11-28。
+### Loon 配置（deezertidal）
+
+- **Loon 配置**【手機】（⭐ 925）—— [deezertidal/private](https://github.com/deezertidal/private)：Loon 配置、腳本、插件、規則、分流、破解、解鎖。（JavaScript）星標核實於 2026-11-28。
+### 節點一鍵腳本
+
+- **節點一鍵腳本**【電腦】（⭐ 190）—— [shidahuilang/SS-SSR-TG-iptables-bt](https://github.com/shidahuilang/SS-SSR-TG-iptables-bt)：節點全集合一鍵腳本搭建。（Shell，MIT）星標核實於 2026-11-28。
+### CleanMyPc（Mac 維護）
+
+- **CleanMyPc**【電腦】（⭐ 210）—— [CSZHK/CleanMyPc](https://github.com/CSZHK/CleanMyPc)：可解釋、可恢復的 Mac 維護工作區，安裝包只有 6.2MB。（Swift，MIT）星標核實於 2026-11-28。
+### TelegramGroup（電報群合集）
+
+- **TelegramGroup**（⭐ 6610）—— [itgoyo/TelegramGroup](https://github.com/itgoyo/TelegramGroup)：2026 最新收集的 10000＋個 Telegram 群與頻道合集，附全網好用的機器人，聚合電報導航。星標核實於 2026-11-28。
+### Shadowrocket（使用手冊）
+
+- **Shadowrocket**【手機】（⭐ 5544）—— [LOWERTOP/Shadowrocket](https://github.com/LOWERTOP/Shadowrocket)：Shadowrocket 使用手冊補完計劃。（HTML）星標核實於 2026-11-28。
+### Shadowrocket-First（配色與配置）
+
+- **Shadowrocket-First**【手機】（⭐ 5804）—— [LOWERTOP/Shadowrocket-First](https://github.com/LOWERTOP/Shadowrocket-First)：小火箭配色與配置。星標核實於 2026-11-28。
+### Quantumult_X（腳本合集）
+
+- **Quantumult_X**【手機】（⭐ 835）—— [evilbutcher/Quantumult_X](https://github.com/evilbutcher/Quantumult_X)：Quantumult X、Loon、Surge 的腳本合集。（JavaScript）最後更新 2024-12-29。星標核實於 2026-11-28。
+### Script（NobyDa 腳本合集）
+
+- **Script**【手機】（⭐ 8437）—— [NobyDa/Script](https://github.com/NobyDa/Script)：基於幾款優秀 iOS 代理軟體腳本能力的腳本合集。（JavaScript，GPL-3.0）星標核實於 2026-11-28。
+### QuantumultX（w37fhy）
+
+- **QuantumultX**【手機】（⭐ 5924）—— [w37fhy/QuantumultX](https://github.com/w37fhy/QuantumultX)：同步和更新大佬腳本庫，更新懶人配置。（JavaScript，GPL-3.0）最後更新 2026-03-05。星標核實於 2026-11-28。
+### Adblock4limbo（去廣告腳本）
+
+- **Adblock4limbo**【手機】（⭐ 4590）—— [limbopro/Adblock4limbo](https://github.com/limbopro/Adblock4limbo)：毒奶去網頁廣告計劃用戶腳本：Quantumult X、Surge、Shadowrocket、Loon、Stash、油猴。（JavaScript，MIT）星標核實於 2026-11-28。
+### Profiles4limbo（懶人配置）
+
+- **Profiles4limbo**【手機】（⭐ 3569）—— [limbopro/Profiles4limbo](https://github.com/limbopro/Profiles4limbo)：毒奶自用懶人配置文件（Quantumult X）：去廣告分流規則、blackmatrix7 分流規則、Clash 訂閱轉換。（JavaScript）星標核實於 2026-11-28。
+### QuantumultX-Script（腳本收集）
+
+- **QuantumultX-Script**【手機】（⭐ 837）—— [Tartarus2014/QuantumultX-Script](https://github.com/Tartarus2014/QuantumultX-Script)：QuantumultX 腳本收集。最後更新 2025-09-16。星標核實於 2026-11-28。
+### rules（App 規則文件）
+
+- **rules**【手機】（⭐ 792）—— [zwf234/rules](https://github.com/zwf234/rules)：各種 App 的規則文件。（JavaScript）最後更新 2024-06-08。星標核實於 2026-11-28。
+### Quantumult-X（規則整理）
+
+- **Quantumult-X**【手機】（⭐ 3210）—— [crossutility/Quantumult-X](https://github.com/crossutility/Quantumult-X)：Quantumult X 規則整理。（JavaScript）星標核實於 2026-11-28。
+### Rules-For-Quantumult-X（規則合集）
+
+- **Rules-For-Quantumult-X**【手機】（⭐ 3780）—— [sve1r/Rules-For-Quantumult-X](https://github.com/sve1r/Rules-For-Quantumult-X)：Quantumult X 規則整理合集，來源皆為網際網路，僅作收集整理。（JavaScript，MIT）最後更新 2026-02-09。星標核實於 2026-11-28。
+### QuantumultX（id77 自用配置）
+
+- **QuantumultX**【手機】（⭐ 498）—— [id77/QuantumultX](https://github.com/id77/QuantumultX)：QuantumultX 自用配置。（JavaScript）星標核實於 2026-11-28。
+### scripts（BoxJs 腳本）
+
+- **scripts**【手機】（⭐ 5525）—— [chavyleung/scripts](https://github.com/chavyleung/scripts)：BoxJs 腳本合集。（JavaScript，GPL-3.0）星標核實於 2026-11-28。
+### boxjs-doc（BoxJs 文檔）
+
+- **boxjs-doc**【手機】（⭐ 257）—— [chavyleung/boxjs-doc](https://github.com/chavyleung/boxjs-doc)：BoxJs 文檔。最後更新 2022-05-24。星標核實於 2026-11-28。
+### QuantumultX（Orz-3）
+
+- **QuantumultX**【手機】（⭐ 4499）—— [Orz-3/QuantumultX](https://github.com/Orz-3/QuantumultX)：Quantumult X 配置。（JavaScript）星標核實於 2026-11-28。
+### QuantumultX（songyangzz）
+
+- **QuantumultX**【手機】（⭐ 304）—— [songyangzz/QuantumultX](https://github.com/songyangzz/QuantumultX)：Quantumult X 腳本。（JavaScript）最後更新 2023-12-20。星標核實於 2026-11-28。
+### Rules（規則收集）
+
+- **Rules**【手機】（⭐ 930）—— [erdongchanyo/Rules](https://github.com/erdongchanyo/Rules)：收集整理覺得還行的一些規則。（JavaScript）最後更新 2025-01-04。星標核實於 2026-11-28。
+### ND-AD（廣告規則）
+
+- **ND-AD**【手機】（⭐ 565）—— [NobyDa/ND-AD](https://github.com/NobyDa/ND-AD)：多個開源項目整合的廣告規則。（MIT）最後更新 2024-05-15。星標核實於 2026-11-28。
+### AdBlockByIOS（去開屏廣告）
+
+- **AdBlockByIOS**【手機】（⭐ 191）—— [wubuzhi/AdBlockByIOS](https://github.com/wubuzhi/AdBlockByIOS)：去除 iOS 常用軟體的開屏廣告。（GPL-2.0）最後更新 2020-11-20。星標核實於 2026-11-28。
+### Scriptable（anker1209）
+
+- **Scriptable**【手機】（⭐ 705）—— [anker1209/Scriptable](https://github.com/anker1209/Scriptable)：Scriptable 腳本合集。（JavaScript）最後更新 2025-01-11。星標核實於 2026-11-28。
+### Scriptable（dompling）
+
+- **Scriptable**【手機】（⭐ 981）—— [dompling/Scriptable](https://github.com/dompling/Scriptable)：Scriptable 小組件腳本。（JavaScript）最後更新 2025-01-02。星標核實於 2026-11-28。
+### Scriptable（gideonsenku）
+
+- **Scriptable**【手機】（⭐ 850）—— [gideonsenku/Scriptable](https://github.com/gideonsenku/Scriptable)：Scriptable 腳本合集。（JavaScript）最後更新 2026-03-12。星標核實於 2026-11-28。
+### Tampermonkey（油猴腳本集合）
+
+- **Tampermonkey**【手機＋電腦】（⭐ 954）—— [Ahaochan/Tampermonkey](https://github.com/Ahaochan/Tampermonkey)：油猴腳本集合。（JavaScript，GPL-3.0）星標核實於 2026-11-28。
+### GM_script（油猴腳本）
+
+- **GM_script**【手機＋電腦】（⭐ 6061）—— [langren1353/GM_script](https://github.com/langren1353/GM_script)：分享用的油猴腳本合集。（JavaScript，MIT）星標核實於 2026-11-28。
+### Profiles（Sunert 自用配置）
+
+- **Profiles**【手機】（⭐ 36）—— [Sunert/Profiles](https://github.com/Sunert/Profiles)：Sunert 自用的代理配置（作者註明不維護）。最後更新 2021-05-22。星標核實於 2026-11-28。
+### enen（Node.js 小工具）
+
+- **enen**【手機】（⭐ 2199）—— [Toulu-debug/enen](https://github.com/Toulu-debug/enen)：Node.js 小工具合集（TypeScript／JavaScript），Windows、Linux、macOS 都能跑。（JavaScript，MIT）最後更新 2024-09-30。星標核實於 2026-11-28。
+### Script（moposmall 腳本合集）
+
+- **Script**【手機】（⭐ 114）—— [moposmall/Script](https://github.com/moposmall/Script)：moposmall 的腳本合集（作者註明僅供學習研究）。（JavaScript）最後更新 2021-07-23。星標核實於 2026-11-28。
+### server-chan（Server 醬模組）
+
+- **server-chan**【電腦】（⭐ 2）—— [CaoMeiYouRen/server-chan](https://github.com/CaoMeiYouRen/server-chan)：Server 醬的 Node.js 端模組。（JavaScript，MIT）最後更新 2021-03-02。星標核實於 2026-11-28。
+### c1yy.github.io（個人網站）
+
+- **c1yy.github.io**（⭐ 1）—— [c1yy/c1yy.github.io](https://github.com/c1yy/c1yy.github.io)：c1yy 的個人網站。最後更新 2021-02-05。星標核實於 2026-11-28。
