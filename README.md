@@ -146,9 +146,9 @@
 
 ### 麥田（自媒體多平台發布中控與數據監控）
 
-- **麥田**【電腦】（⭐ 760）—— [CzzzzzzJ/mdldm-maitian](https://github.com/CzzzzzzJ/mdldm-maitian)：自媒體影片多平台發布中控與數據監控（B站／抖音／小紅書／視頻號／YouTube／X／Instagram），Agent 寫文案、Chrome 插件填表定時發、每天採播放與粉絲數據、第 1/3/7 天同天比同天復盤、接自己的站點算轉化漏斗（播放→註冊→會員→收入）；飛書卡片通知＋數據大屏。MIT 開源，免費。需一台常開的電腦（Mac 或 Windows）＋Node.js ≥ 22.5＋Chrome，不存平台密碼；國內四家只填表不發，最後一下自己點。
+- **麥田**【電腦】（⭐ 2270）—— [CzzzzzzJ/mdldm-maitian](https://github.com/CzzzzzzJ/mdldm-maitian)：自媒體影片多平台發布中控與數據監控（B站／抖音／小紅書／視頻號／YouTube／X／Instagram），Agent 寫文案、Chrome 插件填表定時發、每天採播放與粉絲數據、第 1/3/7 天同天比同天復盤、接自己的站點算轉化漏斗（播放→註冊→會員→收入）；飛書卡片通知＋數據大屏。MIT 開源，免費。需一台常開的電腦（Mac 或 Windows）＋Node.js ≥ 22.5＋Chrome，不存平台密碼；國內四家只填表不發，最後一下自己點。
 
-> 2026-11-14 建倉，3 天 760 星，還很新；姊妹倉庫是發佈助手插件 [CzzzzzzJ/mdldm-maitian-publisher](https://github.com/CzzzzzzJ/mdldm-maitian-publisher)。星標核實於 2026-11-17。
+> 2026-11-14 建倉，還很新；姊妹倉庫是發佈助手插件 [CzzzzzzJ/mdldm-maitian-publisher](https://github.com/CzzzzzzJ/mdldm-maitian-publisher)。星標 760（2026-11-17 核實）→ 2,270（2026-11-27 核實）。
 
 ### CreatorHub（多平台內容管理工作台）
 
