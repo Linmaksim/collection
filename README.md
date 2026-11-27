@@ -8,7 +8,7 @@
 
 - [影音娛樂](#影音娛樂) — 紅果 TV、HGhubX、Jellyfin、NewPipe、AvPlay
 - [下載工具](#下載工具) — LibreGet、Cloudn
-- [AI 技能與提示詞](#ai-技能與提示詞) — anthropics/skills、obra/superpowers、wshobson/agents、jakubkrehel/skills、系統提示詞泄露合集、zh-tw-humanizer
+- [AI 技能與提示詞](#ai-技能與提示詞) — anthropics/skills、obra/superpowers、wshobson/agents、jakubkrehel/skills、系統提示詞泄露合集、zh-tw-humanizer、speak-human-tw
 - [AI 程式與開發工具](#ai-程式與開發工具) — Cursor、Bolt.new、LocModel、ModelScope、DSH-Android、AstrBot、MuseLink、Agent-Reach、Gemini API CLI、叠号
 - [內容創作](#內容創作) — MoneyPrinterTurbo、F5-TTS、VoiceStudio、Voicebox、SadTalker、Upscayl、Raphael、Clipdrop、Concat、Napkin、Marp
 - [自媒體發布](#自媒體發布) — MatrixMedia、麥田、CreatorHub
@@ -109,6 +109,12 @@
 - **zh-tw-humanizer**【電腦】（⭐ 11）—— [acchuang/zh-tw-humanizer](https://github.com/acchuang/zh-tw-humanizer)：台式中文去 AI 味編輯 skill（Python，MIT），把 AI 寫的繁體中文改寫成自然的台灣華語；62 種 AI 寫作特徵、183 組兩岸用語對照、保護價格／連結／引文不動；附離線檢查程式 check.py，改完對照原稿比對，數字、日期、網址掉了或憑空多出來會報出來，還掃簡體字、半形標點、隱形字元。
 
 > 我們拿它當檢查員用：speak-human-tw 負責改寫，改完跑 check.py 驗收；11 星，人很少，評測數字（0.99 對 0.84）是作者自己跑的 36 個案例，未獨立複核。已裝進 custom-skills/zh-tw-humanizer（v1.11.0，2026-11-27 更新）。星標核實於 2026-11-28。
+
+### speak-human-tw（說人話：台式中文去 AI 味）
+
+- **speak-human-tw**【電腦】（⭐ 1216）—— [Raymondhou0917/speak-human-tw](https://github.com/Raymondhou0917/speak-human-tw)：繁體中文去 AI 味 skill（Python，MIT），38 種 AI 痕跡、60 多組台灣用語對照、42 條評測（27 條該改必中＋15 條不可誤殺）；保護價格／優惠碼／連結／真名原話／承諾條款不動；預設先列清單等勾選才動筆。
+
+> 我們拿它當寫手：文章、發文（社群貼文、電子報）走它，改完由 zh-tw-humanizer 的 check.py 驗收；一般中文潤色走 humanizer-zh。已裝進 custom-skills/speak-human-tw（v1.4.0），直接套用、不用先列清單等勾（他 2026-11-28 定）。星標核實於 2026-11-28。
 
 ## AI 程式與開發工具
 
