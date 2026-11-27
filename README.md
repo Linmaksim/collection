@@ -95,10 +95,10 @@
 - **Cimoc**【手機】（⭐ 2361）—— [feilongfl/Cimoc](https://github.com/feilongfl/Cimoc)：Android 平台線上漫畫閱讀器。（Java，GPL-3.0）最後更新 2020-10-12。星標核實於 2026-11-28。
 ### 書源合集（shidahuilang）
 
-- **書源合集**【手機】（⭐ 244）—— [shidahuilang/shuyuan-bak](https://github.com/shidahuilang/shuyuan-bak)：閱讀 App 書源合集：源閱、輕閱讀、番茄、書旗、起點、七貓、喜馬拉雅、短劇、漫畫、聽書等，自動更新。（Python，GPL-3.0）星標核實於 2026-11-28。
+- **書源合集（shidahuilang）**【手機】（⭐ 244）—— [shidahuilang/shuyuan-bak](https://github.com/shidahuilang/shuyuan-bak)：閱讀 App 書源合集：源閱、輕閱讀、番茄、書旗、起點、七貓、喜馬拉雅、短劇、漫畫、聽書等，自動更新。（Python，GPL-3.0）星標核實於 2026-11-28。
 ### 書源合集（wpzwdz）
 
-- **書源合集**【手機】（⭐ 1）—— [wpzwdz/shuyuan-bak](https://github.com/wpzwdz/shuyuan-bak)：閱讀 App 書源合集，與 shidahuilang 的備份內容相同。（GPL-3.0）最後更新 2026-03-11。星標核實於 2026-11-28。
+- **書源合集（wpzwdz）**【手機】（⭐ 1）—— [wpzwdz/shuyuan-bak](https://github.com/wpzwdz/shuyuan-bak)：閱讀 App 書源合集，與 shidahuilang 的備份內容相同。（GPL-3.0）最後更新 2026-03-11。星標核實於 2026-11-28。
 ### EhSyringe（E 站注射器）
 
 - **EhSyringe**【手機】（⭐ 3799）—— [EhTagTranslation/EhSyringe](https://github.com/EhTagTranslation/EhSyringe)：E 站注射器：把中文翻譯注入到 E 站體內。（TypeScript，MIT）星標核實於 2026-11-28。
@@ -578,13 +578,13 @@
 - **jd-code-assist**【電腦】（⭐ 4）—— [xheiop/jd-code-assist](https://github.com/xheiop/jd-code-assist)：一鍵提交京東助力碼。（Python）最後更新 2020-12-15。星標核實於 2026-11-28。
 ### 淘金幣（JavisPeng）
 
-- **淘金幣**【電腦】（⭐ 1480）—— [JavisPeng/taojinbi](https://github.com/JavisPeng/taojinbi)：淘寶淘金幣自動執行腳本：螞蟻森林收能量、芭芭農場全任務，解放雙手。（JavaScript，GPL-3.0）最後更新 2021-08-03。星標核實於 2026-11-28。
+- **淘金幣（JavisPeng）**【電腦】（⭐ 1480）—— [JavisPeng/taojinbi](https://github.com/JavisPeng/taojinbi)：淘寶淘金幣自動執行腳本：螞蟻森林收能量、芭芭農場全任務，解放雙手。（JavaScript，GPL-3.0）最後更新 2021-08-03。星標核實於 2026-11-28。
 ### 淘金幣（zero205）
 
-- **淘金幣**【電腦】（⭐ 22）—— [zero205/taojinbi](https://github.com/zero205/taojinbi)：淘寶淘金幣自動執行腳本，解放雙手。（JavaScript，GPL-3.0）最後更新 2021-06-26。星標核實於 2026-11-28。
+- **淘金幣（zero205）**【電腦】（⭐ 22）—— [zero205/taojinbi](https://github.com/zero205/taojinbi)：淘寶淘金幣自動執行腳本，解放雙手。（JavaScript，GPL-3.0）最後更新 2021-06-26。星標核實於 2026-11-28。
 ### 淘金幣（自己的）
 
-- **淘金幣**【電腦】（⭐ 1）—— [Linmaksim/taojinbi](https://github.com/Linmaksim/taojinbi)：淘寶淘金幣自動執行腳本：螞蟻森林收能量、芭芭農場全任務。自己的倉庫。（GPL-3.0）最後更新 2021-04-06。星標核實於 2026-11-28。
+- **淘金幣（自己的）**【電腦】（⭐ 1）—— [Linmaksim/taojinbi](https://github.com/Linmaksim/taojinbi)：淘寶淘金幣自動執行腳本：螞蟻森林收能量、芭芭農場全任務。自己的倉庫。（GPL-3.0）最後更新 2021-04-06。星標核實於 2026-11-28。
 ### TikTok-Unlock（TikTok 解鎖）
 
 - **TikTok-Unlock**【手機】（⭐ 12274）—— [Semporia/TikTok-Unlock](https://github.com/Semporia/TikTok-Unlock)：TikTok 無需拔卡解鎖：支援 iPhone／iPad、TikTok 與 TestFlight，地區切換、發佈影片、直播。（JavaScript）星標核實於 2026-11-28。
@@ -611,10 +611,10 @@
 - **Quantumult_X**【手機】（⭐ 835）—— [evilbutcher/Quantumult_X](https://github.com/evilbutcher/Quantumult_X)：Quantumult X、Loon、Surge 的腳本合集。（JavaScript）最後更新 2024-12-29。星標核實於 2026-11-28。
 ### Script（NobyDa 腳本合集）
 
-- **Script**【手機】（⭐ 8437）—— [NobyDa/Script](https://github.com/NobyDa/Script)：基於幾款優秀 iOS 代理軟體腳本能力的腳本合集。（JavaScript，GPL-3.0）星標核實於 2026-11-28。
+- **Script（NobyDa 腳本合集）**【手機】（⭐ 8437）—— [NobyDa/Script](https://github.com/NobyDa/Script)：基於幾款優秀 iOS 代理軟體腳本能力的腳本合集。（JavaScript，GPL-3.0）星標核實於 2026-11-28。
 ### QuantumultX（w37fhy）
 
-- **QuantumultX**【手機】（⭐ 5924）—— [w37fhy/QuantumultX](https://github.com/w37fhy/QuantumultX)：同步和更新大佬腳本庫，更新懶人配置。（JavaScript，GPL-3.0）最後更新 2026-03-05。星標核實於 2026-11-28。
+- **QuantumultX（w37fhy）**【手機】（⭐ 5924）—— [w37fhy/QuantumultX](https://github.com/w37fhy/QuantumultX)：同步和更新大佬腳本庫，更新懶人配置。（JavaScript，GPL-3.0）最後更新 2026-03-05。星標核實於 2026-11-28。
 ### Adblock4limbo（去廣告腳本）
 
 - **Adblock4limbo**【手機】（⭐ 4590）—— [limbopro/Adblock4limbo](https://github.com/limbopro/Adblock4limbo)：毒奶去網頁廣告計劃用戶腳本：Quantumult X、Surge、Shadowrocket、Loon、Stash、油猴。（JavaScript，MIT）星標核實於 2026-11-28。
@@ -635,7 +635,7 @@
 - **Rules-For-Quantumult-X**【手機】（⭐ 3780）—— [sve1r/Rules-For-Quantumult-X](https://github.com/sve1r/Rules-For-Quantumult-X)：Quantumult X 規則整理合集，來源皆為網際網路，僅作收集整理。（JavaScript，MIT）最後更新 2026-02-09。星標核實於 2026-11-28。
 ### QuantumultX（id77 自用配置）
 
-- **QuantumultX**【手機】（⭐ 498）—— [id77/QuantumultX](https://github.com/id77/QuantumultX)：QuantumultX 自用配置。（JavaScript）星標核實於 2026-11-28。
+- **QuantumultX（id77 自用配置）**【手機】（⭐ 498）—— [id77/QuantumultX](https://github.com/id77/QuantumultX)：QuantumultX 自用配置。（JavaScript）星標核實於 2026-11-28。
 ### scripts（BoxJs 腳本）
 
 - **scripts**【手機】（⭐ 5525）—— [chavyleung/scripts](https://github.com/chavyleung/scripts)：BoxJs 腳本合集。（JavaScript，GPL-3.0）星標核實於 2026-11-28。
@@ -644,10 +644,10 @@
 - **boxjs-doc**【手機】（⭐ 257）—— [chavyleung/boxjs-doc](https://github.com/chavyleung/boxjs-doc)：BoxJs 文檔。最後更新 2022-05-24。星標核實於 2026-11-28。
 ### QuantumultX（Orz-3）
 
-- **QuantumultX**【手機】（⭐ 4499）—— [Orz-3/QuantumultX](https://github.com/Orz-3/QuantumultX)：Quantumult X 配置。（JavaScript）星標核實於 2026-11-28。
+- **QuantumultX（Orz-3）**【手機】（⭐ 4499）—— [Orz-3/QuantumultX](https://github.com/Orz-3/QuantumultX)：Quantumult X 配置。（JavaScript）星標核實於 2026-11-28。
 ### QuantumultX（songyangzz）
 
-- **QuantumultX**【手機】（⭐ 304）—— [songyangzz/QuantumultX](https://github.com/songyangzz/QuantumultX)：Quantumult X 腳本。（JavaScript）最後更新 2023-12-20。星標核實於 2026-11-28。
+- **QuantumultX（songyangzz）**【手機】（⭐ 304）—— [songyangzz/QuantumultX](https://github.com/songyangzz/QuantumultX)：Quantumult X 腳本。（JavaScript）最後更新 2023-12-20。星標核實於 2026-11-28。
 ### Rules（規則收集）
 
 - **Rules**【手機】（⭐ 930）—— [erdongchanyo/Rules](https://github.com/erdongchanyo/Rules)：收集整理覺得還行的一些規則。（JavaScript）最後更新 2025-01-04。星標核實於 2026-11-28。
@@ -659,13 +659,13 @@
 - **AdBlockByIOS**【手機】（⭐ 191）—— [wubuzhi/AdBlockByIOS](https://github.com/wubuzhi/AdBlockByIOS)：去除 iOS 常用軟體的開屏廣告。（GPL-2.0）最後更新 2020-11-20。星標核實於 2026-11-28。
 ### Scriptable（anker1209）
 
-- **Scriptable**【手機】（⭐ 705）—— [anker1209/Scriptable](https://github.com/anker1209/Scriptable)：Scriptable 腳本合集。（JavaScript）最後更新 2025-01-11。星標核實於 2026-11-28。
+- **Scriptable（anker1209）**【手機】（⭐ 705）—— [anker1209/Scriptable](https://github.com/anker1209/Scriptable)：Scriptable 腳本合集。（JavaScript）最後更新 2025-01-11。星標核實於 2026-11-28。
 ### Scriptable（dompling）
 
-- **Scriptable**【手機】（⭐ 981）—— [dompling/Scriptable](https://github.com/dompling/Scriptable)：Scriptable 小組件腳本。（JavaScript）最後更新 2025-01-02。星標核實於 2026-11-28。
+- **Scriptable（dompling）**【手機】（⭐ 981）—— [dompling/Scriptable](https://github.com/dompling/Scriptable)：Scriptable 小組件腳本。（JavaScript）最後更新 2025-01-02。星標核實於 2026-11-28。
 ### Scriptable（gideonsenku）
 
-- **Scriptable**【手機】（⭐ 850）—— [gideonsenku/Scriptable](https://github.com/gideonsenku/Scriptable)：Scriptable 腳本合集。（JavaScript）最後更新 2026-03-12。星標核實於 2026-11-28。
+- **Scriptable（gideonsenku）**【手機】（⭐ 850）—— [gideonsenku/Scriptable](https://github.com/gideonsenku/Scriptable)：Scriptable 腳本合集。（JavaScript）最後更新 2026-03-12。星標核實於 2026-11-28。
 ### Tampermonkey（油猴腳本集合）
 
 - **Tampermonkey**【手機＋電腦】（⭐ 954）—— [Ahaochan/Tampermonkey](https://github.com/Ahaochan/Tampermonkey)：油猴腳本集合。（JavaScript，GPL-3.0）星標核實於 2026-11-28。
@@ -680,7 +680,7 @@
 - **enen**【手機】（⭐ 2199）—— [Toulu-debug/enen](https://github.com/Toulu-debug/enen)：Node.js 小工具合集（TypeScript／JavaScript），Windows、Linux、macOS 都能跑。（JavaScript，MIT）最後更新 2024-09-30。星標核實於 2026-11-28。
 ### Script（moposmall 腳本合集）
 
-- **Script**【手機】（⭐ 114）—— [moposmall/Script](https://github.com/moposmall/Script)：moposmall 的腳本合集（作者註明僅供學習研究）。（JavaScript）最後更新 2021-07-23。星標核實於 2026-11-28。
+- **Script（moposmall 腳本合集）**【手機】（⭐ 114）—— [moposmall/Script](https://github.com/moposmall/Script)：moposmall 的腳本合集（作者註明僅供學習研究）。（JavaScript）最後更新 2021-07-23。星標核實於 2026-11-28。
 ### server-chan（Server 醬模組）
 
 - **server-chan**【電腦】（⭐ 2）—— [CaoMeiYouRen/server-chan](https://github.com/CaoMeiYouRen/server-chan)：Server 醬的 Node.js 端模組。（JavaScript，MIT）最後更新 2021-03-02。星標核實於 2026-11-28。
