@@ -1,0 +1,435 @@
+# 琦琦輸入法 / chichi77 KeyKey
+
+正式支援 **Windows、macOS、iOS、Android、Linux 與 FreeBSD 六大平台**。
+六平台原始碼版號為 **1.5.2**。好打注音可開啟「省略聲調」，Android 與 iOS 也新增倚天和倚天 26 鍵。各平台仍須完成發布程序。下載桌面正式版請查 [已發布版本](https://github.com/polobread/KeyKey/releases)，手機版以各商店列出的版本為準。
+macOS、Windows 與 Ubuntu 24.04 安裝包由 GitHub Release 提供；FreeBSD 透過 ports／pkg 安裝，
+套件庫版本可能較晚上架。Android 與 iOS 可分別從 [Google Play](https://play.google.com/store/apps/details?id=tw.chichi77.keykey.android) 與 [App Store](https://apps.apple.com/tw/app/%E7%90%A6%E7%90%A6%E8%BC%B8%E5%85%A5%E6%B3%95/id6807832939) 下載安裝。
+
+[1.5.1 發布準備](docs/CROSS_PLATFORM_V1_5_1_RELEASE.md)
+
+## 感謝媒體報導及推薦
+
+感謝媒體與創作者介紹、推薦琦琦輸入法：
+
+- [媒體報導](https://free.com.tw/chichi-keykey/)
+- [KOL 推薦](https://www.facebook.com/ahui3c/posts/pfbid0KXPpXcS8fT6wxGveuJU6zCGbjKsbPw7GfiCaHdqQaRVrDt61uHAwDLjp9Xrn99Bbl)
+
+## 開發初衷
+
+開發琦琦輸入法，是因為我很懷念 Windows 上的微軟「ㄅ半」，以及 macOS 上的
+Yahoo! KeyKey。這兩套輸入法後來都沒有持續維護；Android 與 iOS 即使接上實體鍵盤，
+也很難沿用「ㄅ半」養成的注音輸入肌肉記憶。因此，我利用自己閒置的生成式 AI 額度，
+著手把琦琦輸入法做成跨平台輸入法，希望大家換到不同裝置時，仍能盡量維持熟悉的
+按鍵配置與操作習慣，在 macOS、Windows、Linux、FreeBSD、Android 與 iOS 上快樂地輸入注音。這就是
+這個專案的初衷。
+
+也謝謝小麥注音以 MIT License 提供詞庫資料，讓本專案能在它的基礎上繼續擴充。我另外
+利用生成式 AI 產生、推論並整理各類分類詞庫；這些資料沒有全面逐筆人工校正，不保證
+正確性或完整性，重要用途請自行查證。
+
+Android 與 iOS 版透過 Google Play 與 App Store 的官方流程發行，並提供不影響任何輸入
+功能的一次性支持方案；希望免費使用的朋友，仍可 fork 本專案，拉回自己的電腦自行編譯
+安裝。macOS、Windows 與 Ubuntu 24.04 安裝包則由 GitHub Release 提供。
+
+琦琦輸入法是 Yahoo! KeyKey 開放原始碼的現代化分支，支援 macOS、Windows、
+Android、iOS、Ubuntu Desktop 24.04 LTS 的 Linux 原生版與 FreeBSD。
+
+Linux 原生版針對 Ubuntu Desktop 24.04、GNOME Shell 46、Fcitx 5、amd64，包含預設的
+好打注音整句組字、可切換的傳統注音、五種注音布局、候選與符號、30 套關聯詞、
+中英文與全半形切換，以及倉頡和簡易。
+先前版本已驗證 GNOME X11、Wayland、XWayland 的 GTK 3／GTK 4／Qt 6 輸入與候選操作，
+另有獨立的 GNOME 候選面板套件。安裝步驟見
+[Ubuntu 安裝與使用指南](LINUX_INSTALL.md)。
+其他 Ubuntu 版本、IBus、ARM64 與其他發行版留待後續相容性驗收。
+
+本專案以 Yahoo! Inc. 於 2012 年以 BSD 3-Clause License 釋出的原始碼為基礎，
+沿用 OpenVanilla／PlainVanilla 的原生前端基礎與傳統注音資料，移除失效的網路服務，並為
+Windows、Android 與 iOS 建立現代化 frontend。
+
+**本軟體不是 Yahoo 官方產品，與 Yahoo 無隸屬關係，也未獲 Yahoo 背書或贊助。**
+
+[English](#english) · [建置、安裝與打包](BUILDING.md)
+
+## Guanyinma：六平台共用核心
+
+1.5.0 改採 **Guanyinma（觀音嬤）** 作為唯一的輸入核心。名稱取自臺語對觀世音菩薩的親切稱呼「觀音嬤」，Guanyinma 是這個稱呼的專案拼寫。
+
+取名「觀音嬤」，也借用觀音菩薩慈悲照顧眾生的形象。我們希望這套共用核心也能照顧不同平台與裝置，讓大家無論使用哪個平台，都能穩定、順暢地輸入中文。命名靈感參考[艋舺龍山寺官網〈認識奉祀神祇〉](https://www.lungshan.org.tw/tw/02_1_1_gods.php)。
+
+過去 macOS／Windows 的好打注音採用 **Manjusri（文殊菩薩）** 核心，目前已由 Guanyinma 接替。1.5.0 不再內建 Manjusri 或各平台原有的舊輸入引擎。
+
+Guanyinma 以 Rust 實作，讓 Windows、macOS、iOS、Android、Linux 與 FreeBSD 共用好打注音、傳統注音、倉頡與簡易的輸入邏輯、候選排序及學習機制。各平台保留適合自己的原生介面、鍵盤與文字輸入接合。
+
+共用單一核心後，演算法修正與新能力可以集中維護、測試，再由各平台接入，減少重複實作與維護成本，也讓各平台更容易補齊功能、持續擴充。介面、設定與可用功能仍依各平台系統能力而異，詳見[跨平台功能與設定支援表](docs/CROSS_PLATFORM_SETTINGS_ROADMAP.md)。
+
+技術細節見 [Guanyinma 核心文件](Source/Guanyinma/README.md)。
+
+## 平台
+
+| 平台 | 實作與支援範圍 |
+|---|---|
+| macOS | InputMethodKit；macOS 15 以上、Apple Silicon |
+| Windows | 原生 TSF，支援 Windows 10 以上的 x64／x86。Windows 10 已通過實機驗證 |
+| Android | 原生 IME；Android 8 以上，支援觸控與外接鍵盤，不需網路權限 |
+| iOS | Swift custom keyboard extension、安裝引導 App 與 App 內實體鍵盤編輯器；不要求完整取用權限、不連網 |
+| Linux | Ubuntu Desktop 24.04 LTS、GNOME Shell 46、Fcitx 5、amd64；注音、倉頡、簡易 |
+| FreeBSD | 目標環境為 FreeBSD 15.1-RELEASE-p3、amd64、Xfce／X11、LightDM、Fcitx 5、Mousepad／GTK 3；透過 ports／pkg 安裝 |
+
+六個平台都提供傳統注音組字、候選字與關聯詞；各平台受作業系統 API 限制，介面與
+部分功能會有差異。
+
+1.5.1 的 Windows 版包含好打注音與傳統注音的工作列快速切換、跟隨系統明暗模式的
+四頁設定介面，以及 x64／x86 TSF。x64 套件同時包含 x64 與 x86 DLL，供兩種位元數的
+應用程式使用；x86 套件供 32 位元 Windows 使用。升級後須登出再登入，讓工作列載入新版輸入法。
+
+iOS 不允許第三方 keyboard extension 接管 USB／藍牙鍵盤，因此無法在備忘錄、LINE 或
+Safari 中提供系統級實體鍵盤注音。琦琦容器 App 另附「實體鍵盤編輯器」：在 App 前景
+使用同一套注音引擎與固定直排 `1–9` 候選完成文字，再以複製或 iOS 分享面板送到其他 App。
+
+## 下載與發行
+
+桌面版提供每週新版通知，macOS／Windows 在使用者選擇更新後才下載與安裝；
+Linux／FreeBSD 透過官方下載頁及套件管理器更新。簽章、GitHub Release／CDN 設定與 ports／pkg
+流程見[桌面更新說明](update/README.md)。
+
+下表列出 1.5.1 資產發布後的下載入口。台灣 AWS CDN 與對應 GitHub Assets 內容相同，無須登入。
+
+| 平台 | 發布目標 | GitHub Release | 台灣 AWS 下載點 |
+| --- | --- | --- | --- |
+| macOS Apple Silicon | 1.5.1 | [Release](https://github.com/polobread/KeyKey/releases/tag/v1.5.1) | [PKG ZIP](https://download.aws.polobread.com/keykey/releases/download/v1.5.1/chichi77-KeyKey-1.5.1-macos-arm64.pkg.zip) · [SHA-256](https://download.aws.polobread.com/keykey/releases/download/v1.5.1/chichi77-KeyKey-1.5.1-macos-arm64.pkg.zip.sha256) |
+| Windows x64／x86 | 1.5.1 | [Release](https://github.com/polobread/KeyKey/releases/tag/v1.5.1) | [安裝包與校驗檔](https://github.com/polobread/KeyKey/releases/tag/v1.5.1#台灣-aws-下載點) |
+| Ubuntu 24.04 amd64 | 1.5.1 | [Release](https://github.com/polobread/KeyKey/releases/tag/v1.5.1) | [DEB、面板與校驗檔](https://github.com/polobread/KeyKey/releases/tag/v1.5.1#台灣-aws-下載點) |
+
+macOS [建置資訊](https://download.aws.polobread.com/keykey/releases/download/v1.5.1/chichi77-KeyKey-1.5.1-macos-build-info.json)可核對版本、來源提交與安裝包 SHA-256。
+
+- macOS 一般使用者請從[圖文安裝與使用指南](MACOS_INSTALL.md)開始：含下載、啟用、注音選字、詞庫設定及常見問題。
+- [Windows 安裝與使用指南](WINDOWS_INSTALL.md)說明安裝精靈、四種輸入法與新版設定；[功能圖解與索引](docs/WINDOWS_FEATURE_GUIDE.md)以 Windows 為主，補充 macOS 差異。自行建置與測試見 [Windows TSF README](Source/Loaders/Windows-TSF/README.md)。
+- Ubuntu 24.04 使用者請看[Linux 安裝與使用指南](LINUX_INSTALL.md)：`.deb` 套件安裝、Fcitx 5 設定與實際桌面截圖。
+- FreeBSD 使用者請看[安裝與使用指南](FREEBSD_INSTALL.md)：套件庫安裝、ports 原始碼編譯、Fcitx 5 設定與操作截圖。套件資訊見 [FreshPorts：chinese/fcitx5-keykey](https://www.freshports.org/chinese/fcitx5-keykey/)。
+- 想自行編譯 Linux 版，請看[`./configure` 編譯安裝與使用指南](LINUX_CONFIGURE_INSTALL.md)：下載完整原始碼、編譯測試、啟用輸入法與移除。
+- iPhone／iPad 使用者請看[iOS 安裝與使用指南](IOS_INSTALL.md)；可從[《琦琦輸入法》App Store 頁面](https://apps.apple.com/tw/app/%E7%90%A6%E7%90%A6%E8%BC%B8%E5%85%A5%E6%B3%95/id6807832939)安裝。
+- Android 手機／平板使用者請看[Android 安裝與使用指南](ANDROID_INSTALL.md)；可直接從[Google Play 商店](https://play.google.com/store/apps/details?id=tw.chichi77.keykey.android)安裝正式版。
+- [GitHub Releases](https://github.com/polobread/KeyKey/releases) 提供 macOS、Windows 與
+  Ubuntu 24.04 版本。macOS 套件以 Developer ID 簽章、經 Apple notarization 並附 SHA-256；Windows
+  既有未簽章 ZIP 與安裝程式維持原狀；新版正式發布要求安裝檔及兩個 ZIP 內的程式均完成簽章。
+- Linux 的三個 `.deb`、面板原始碼及 `SHA256SUMS` 與桌面版同放在對應版本的 [GitHub Release](https://github.com/polobread/KeyKey/releases)。
+- 桌面版發行檔也可由私有 S3 origin 加 CloudFront 提供下載 mirror；部署與 GitHub
+  OIDC 設定見 [`terraform/infra`](terraform/infra/README.md)。mirror 使用固定的
+  `keykey/releases/download/VERSION/FILE` 路徑，不取代 GitHub Release 作為發行來源。
+- Android 正式 AAB 只在 Actions 頁面手動執行 `Android Play Release` 時建置、簽署並上傳到 Google Play 內部測試；PR 合併與直接 push 都不觸發。
+  從 Play Console 推廣至正式版後，一般使用者即可從 Google Play 下載安裝。
+  `Android Play Release` 的 PR 驗證與手動 `operation=verify` 提供開發測試 APK／未簽章 AAB，不上傳商店。
+- iOS 實機版由 App Store 發行；`Package iOS Simulator` 只產生 Apple Silicon
+  Simulator 測試包，不能安裝到 iPhone 或 iPad。
+
+### Code signing policy
+
+Windows 1.5.1 安裝程式及兩種架構 ZIP 內的程式須完成 Certum 簽章；
+發布沿用 Certum／SimplySign 本機半自動流程，既有未簽章發行檔維持原狀。詳見 [Code signing policy](CODE_SIGNING_POLICY.md) 與
+[Windows Certum 發布指南](docs/WINDOWS_CERTUM_RELEASE.md)。
+目前未達 SignPath Foundation 的申請門檻；整合待辦與致謝文字收至 [Windows SignPath TODO](docs/WINDOWS_SIGNPATH_TODO.md)。
+
+發布 GitHub Release（可同時建立 tag）會啟動
+`Package macOS` 與完整 `Linux CI`；macOS／Linux 通過建置及驗證後，自動上傳自己的 assets。
+Windows 由 Actions 呼叫與本機共用的 PowerShell 完成建置、測試及 unsigned 封裝驗證，保存待簽 artifact；
+本機只驗證來源、Certum 簽章及重包 EXE／ZIP，驗收後另行核准發布。Ed25519 私鑰僅供本機使用，不提交、上傳或顯示。
+完整分工與流程對表見 [Windows 發布指南](docs/WINDOWS_CERTUM_RELEASE.md)。
+各平台建置版號須符合所選 Release tag，並以該 tag 的原始碼建置。macOS／Linux 正式版若某平台失敗，修正合併回 `master` 後，手動執行該平台 workflow，
+選擇 `master` 並填入既有 `release_tag`，即可補建、上傳並替換該平台的同名檔案。
+設定 release environment 的 AWS mirror variables 後，同一批已驗證檔案也會同步到 S3；
+留空 `release_tag` 則只保留 Actions artifact。Linux 的桌面環境與應用程式相容性範圍見[安裝與使用指南](LINUX_INSTALL.md)。
+完整產物、簽章與限制見 [BUILDING.md](BUILDING.md#github-actions-封裝)。
+
+## 開發與提交
+
+如果用起來有哪裡不順手，或有想保留的輸入習慣，歡迎告訴我。因為個人時間有限，
+目前暫時不接受外部 PR；問題回報與資料授權的說明放在[參與說明](CONTRIBUTING.md)。
+
+維護者與協助開發的 agent 修改程式、文件與 CI 時，都在工作分支 commit 和 push，
+再建立 PR，由維護者親自 review 和 merge 到 `master`。Agent 不得自行合併或啟用自動合併，
+也不要直接在 `master` commit 或 push。
+同步最新主分支可在工作分支執行 `git pull --no-rebase origin master`；提交前保留既有修改，
+檢查差異並完成與變更相關的驗證。發布另保留變更審查與人工核准；
+詳細規則見 [AGENTS.md](AGENTS.md) 與 [Code signing policy](CODE_SIGNING_POLICY.md)。
+
+## 文件
+
+- [1.5.0 共用核心遷移](docs/CROSS_PLATFORM_V1_5_0_RELEASE.md)：Guanyinma 發布主軸、升級資料界線與六平台交付條件
+- [跨平台輸入法設定支援表與 Roadmap](docs/CROSS_PLATFORM_SETTINGS_ROADMAP.md)：七種平台／鍵盤情境、功能缺口與開發日期
+- [macOS 圖文安裝與使用指南](MACOS_INSTALL.md)：首次安裝、日常選字、符號與偏好設定
+- [macOS App Store Connect 上架可行性與發行計畫](docs/MACOS_APP_STORE_PLAN.md)：Apple
+  現行政策阻礙、第三方輸入法經驗、商店外發行改善與未來上架 gate
+- [功能圖解與索引](docs/WINDOWS_FEATURE_GUIDE.md)：四種輸入法、省略聲調、Shift、Caps Lock、符號表、倉頡提前選字與候選窗比例；Windows 為主、macOS 補充
+- [Windows 安裝與使用指南](WINDOWS_INSTALL.md)：安裝精靈、啟用、選字、新版設定與解除安裝
+- [Linux 安裝與使用指南](LINUX_INSTALL.md)：Ubuntu 24.04 的套件安裝、Fcitx 5 設定、注音選字與實拍圖
+- [Linux `./configure` 編譯安裝與使用指南](LINUX_CONFIGURE_INSTALL.md)：Ubuntu 24.04 的原始碼安裝、啟用、試打與移除
+- [iOS 安裝與使用指南](IOS_INSTALL.md)：App Store 安裝、加入鍵盤、日常操作與實體鍵盤編輯器
+- [Android 安裝與使用指南](ANDROID_INSTALL.md)：Google Play 正式版安裝、啟用鍵盤、觸控與實體鍵盤操作
+- [BUILDING.md](BUILDING.md)：各平台建置、測試、安裝與打包
+- [五平台心經長文 functional test](tests/HEART_SUTRA_FUNCTIONAL.md)：關閉關聯詞庫後逐字輸入，核對全文及每字候選順位
+- [Linux／FreeBSD Guanyinma 接合](docs/GUANYINMA_LINUX_ADAPTER.md)：現行核心、桌面偏好、詞庫管理與分層驗證
+- [Windows TSF README](Source/Loaders/Windows-TSF/README.md)：Windows frontend
+  的實作、部署及驗證細節
+- [Android IME README](Source/Loaders/Android-IME/README.md)：Android 鍵盤配置、
+  建置與啟用方式
+- [iOS Keyboard README](Source/Loaders/iOS-Keyboard/README.md)：iOS extension 架構、
+  建置方式與平台限制
+- [CHANGELOG.md](CHANGELOG.md)：版本更新內容
+- [App Store / Google Play 素材](StoreAssets/README.md)：商店圖片、來源截圖、內文與發布管道
+- [Installer README](Installer/README.md)：macOS 安裝包、簽署及 notarization
+- [LICENSING.md](LICENSING.md)：Yahoo BSD、原創 frontend／AI 資料 MIT 與第三方授權範圍
+- [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md)：第三方素材與授權
+
+## 詞庫與限制
+
+**本專案可授權的 AI 文章與資料庫原創內容採 MIT 授權。**
+`DataSource/AISyntheticArticles/` 的 AI 文章，以及
+`DataSource/AISyntheticBigram/` 的 AI 合成語料與本專案原創的衍生資料庫內容、
+bigram 資料、計數及權重，包括匯出檔及併入資料庫的相應部分，
+在專案權利人有權授權的範圍內允許使用、重製、修改、散布、商用、模型訓練與評測，
+須保留適用的 MIT 著作權與授權聲明；第三方資料維持各自授權。範圍詳見
+[AI 資料聲明](LICENSES/AI-DATA-NOTICE.txt)。
+
+公開 repository 內含 McBopomofo 的字音與詞頻資料，以及 33 份以 MIT License
+釋出的分類關聯詞詞庫。分類詞庫由自動化方式生成、推論與整理，沒有逐筆人工校正，
+可能含有錯誤；不保證正確性或完整性，詳見
+[`DataSource/chichi77Collection`](DataSource/chichi77Collection/README.md)。
+
+六大平台均提供「好打注音」整句組字模式，
+並可切回傳統逐字注音；已發布套件的功能仍以各版本安裝指南為準。目前原始碼共用預先產生的
+1.5.0 模型，平台建置只驗證與複製，不各自重建。模型以 McBopomofo 的 MIT 授權資料為基礎，
+Bigram 使用 2,300 篇合成文章建模，固定 131 篇文章驗證，並依專案流程整合詞條與讀音補充；
+不使用 Yahoo 未釋出的中研院語料。來源及內容雜湊以[模型 manifest](DataSource/AISyntheticBigram/smart-mandarin-model-manifest.json)為準。
+合成資料不代表完整的臺灣繁中語料分布，也不保證各種文章都能免選字。
+
+<a id="english"></a>
+
+## English
+
+The source version is **1.5.2 on Android** and **1.5.1 on the other five platforms**. Android and iOS add keyboard height adjustment by dragging, a Hanyu Pinyin layout, and optional tone omission for Smart Phonetic. See [published releases](https://github.com/polobread/KeyKey/releases) for desktop downloads, and check the App Store and Google Play listings for the available mobile version.
+FreeBSD uses ports/pkg; binary package repositories may receive the update later.
+Download and install the Android and iOS apps from [Google Play](https://play.google.com/store/apps/details?id=tw.chichi77.keykey.android) and the [App Store](https://apps.apple.com/tw/app/%E7%90%A6%E7%90%A6%E8%BC%B8%E5%85%A5%E6%B3%95/id6807832939), respectively.
+
+All six platforms implement Smart Phonetic
+sentence composition, with Traditional Phonetic available as an
+option. For published builds, consult the installation guide for that version.
+Current sources share the pre-generated 1.5.0 model based on MIT-licensed McBopomofo
+data. Platform builds verify and copy it rather than rebuild it independently.
+Bigram training uses 2,300 synthetic articles, with 131 fixed validation
+articles and separately maintained phrase and reading supplements; the
+proprietary corpus from the historical Yahoo build is not included.
+See the [model manifest](DataSource/AISyntheticBigram/smart-mandarin-model-manifest.json)
+for sources and hashes. Synthetic data does not represent every writing domain
+or guarantee error-free conversion.
+
+[1.5.1 release preparation (Traditional Chinese)](docs/CROSS_PLATFORM_V1_5_1_RELEASE.md).
+
+chichi77 KeyKey is a modernized fork of the open-source Yahoo! KeyKey input
+method. It supports Windows, macOS, iOS, Android, Linux (Ubuntu Desktop 24.04 LTS), and FreeBSD.
+
+The native Linux build targets Ubuntu Desktop 24.04, GNOME Shell 46, Fcitx 5,
+and amd64. It includes Smart Phonetic sentence composition by default,
+switchable Traditional Phonetic, five Bopomofo layouts, candidates, symbols,
+30 associated-phrase collections, Chinese/English and full-width modes, plus
+Cangjie and Simplex. Earlier builds were checked with GTK 3, GTK 4, and Qt 6
+on GNOME X11, Wayland, and XWayland. The separate GNOME candidate panel package
+handles popup placement. See the [Ubuntu installation guide](LINUX_INSTALL.md).
+Other Ubuntu versions,
+IBus, ARM64, and other distributions await compatibility testing.
+
+The project retains the OpenVanilla/PlainVanilla native frontend foundations and Traditional Bopomofo
+data, removes obsolete online services, and adds modern Windows, Android, and
+iOS frontends.
+
+**This is not an official Yahoo product. It is not affiliated with, endorsed
+by, or sponsored by Yahoo.**
+
+### Guanyinma: one shared core
+
+Version 1.5.0 introduced **Guanyinma (觀音嬤)** as the sole input core. Its name is the
+project's spelling of the Taiwanese name “觀音嬤”, an affectionate name for
+Guanyin, the Bodhisattva of Compassion.
+
+The name also takes inspiration from Guanyin's compassion and care for all
+beings. We hope this shared core can serve users across platforms and devices,
+helping everyone type Chinese reliably and comfortably wherever they use KeyKey.
+See [Bangka Lungshan Temple's official introduction to Guanyin](https://www.lungshan.org.tw/tw/02_1_1_gods.php)
+for the inspiration behind the name.
+
+The former macOS/Windows Smart Phonetic core was **Manjusri (文殊菩薩)**,
+named after Manjushri, the Bodhisattva of Wisdom. Version 1.5.0 replaces
+it with Guanyinma and no longer includes Manjusri or the platforms' other legacy
+input engines.
+
+Written in Rust, Guanyinma shares Smart Phonetic, Traditional Phonetic, Cangjie,
+and Simplex input logic, candidate ranking, and learning across Windows, macOS,
+iOS, Android, Linux, and FreeBSD. Each platform keeps its native interface,
+keyboard handling, and text integration.
+
+A shared core reduces duplicate implementation and maintenance. Fixes and new
+capabilities can be developed and tested centrally, then adopted by each
+frontend, making it easier to bring more features to every platform. Interfaces
+and available settings still depend on platform APIs; see the
+[feature and settings matrix](docs/CROSS_PLATFORM_SETTINGS_ROADMAP.md).
+See the [core documentation](Source/Guanyinma/README.md).
+
+### Platforms
+
+| Platform | Implementation and support |
+|---|---|
+| macOS | InputMethodKit; macOS 15 or later on Apple Silicon |
+| Windows | Native TSF; 1.5.1 provides x64/x86 builds for Windows 10 or later; Windows 10 device verification is pending |
+| Android | Native IME; Android 8 or later, touch and hardware keyboards, no network permission |
+| iOS | Swift custom keyboard extension and in-app hardware keyboard editor; no Full Access or network access |
+| Linux | Ubuntu Desktop 24.04 LTS, GNOME Shell 46, Fcitx 5, amd64; Bopomofo, Cangjie, Simplex |
+| FreeBSD | Targets FreeBSD 15.1-RELEASE-p3, amd64, Xfce/X11, LightDM, Fcitx 5, Mousepad/GTK 3; installed through ports/pkg |
+
+All six platforms provide Traditional Bopomofo composition, candidates, and
+associated phrases. UI and some features differ with each platform's APIs.
+
+The 1.5.1 Windows version includes direct Smart/Traditional Phonetic selection from
+the taskbar, a four-page settings app that follows the system light/dark mode,
+and x64/x86 TSF builds. The x64 package includes both DLL architectures for
+64-bit and 32-bit applications; the x86 package is for 32-bit Windows. After
+upgrading, sign out and back in so the taskbar loads the new input method.
+
+iOS does not let a third-party keyboard extension take over USB or Bluetooth
+keyboard events, so system-wide hardware-keyboard input in Notes, LINE, or
+Safari is not available. The container app instead includes a hardware-keyboard
+editor that uses the same engine and a fixed vertical `1–9` candidate list while
+the app is in the foreground, then copies or shares the completed text through
+iOS.
+
+### Downloads and releases
+
+The following links provide 1.5.1 downloads once the platform assets are published. Taiwan AWS downloads contain the same bytes as GitHub Assets.
+
+| Platform | Release target | GitHub Release | Taiwan AWS downloads |
+| --- | --- | --- | --- |
+| macOS Apple Silicon | 1.5.1 | [Release](https://github.com/polobread/KeyKey/releases/tag/v1.5.1) | [PKG ZIP](https://download.aws.polobread.com/keykey/releases/download/v1.5.1/chichi77-KeyKey-1.5.1-macos-arm64.pkg.zip) · [SHA-256](https://download.aws.polobread.com/keykey/releases/download/v1.5.1/chichi77-KeyKey-1.5.1-macos-arm64.pkg.zip.sha256) |
+| Windows x64/x86 | 1.5.1 | [Release](https://github.com/polobread/KeyKey/releases/tag/v1.5.1) | [Installers and checksums](https://github.com/polobread/KeyKey/releases/tag/v1.5.1#台灣-aws-下載點) |
+| Ubuntu 24.04 amd64 | 1.5.1 | [Release](https://github.com/polobread/KeyKey/releases/tag/v1.5.1) | [DEBs, panel, and checksums](https://github.com/polobread/KeyKey/releases/tag/v1.5.1#台灣-aws-下載點) |
+
+- First-time macOS setup, illustrated steps, and troubleshooting: [macOS installation guide (Traditional Chinese)](MACOS_INSTALL.md).
+- The [Windows installation guide (Traditional Chinese)](WINDOWS_INSTALL.md) covers installation and settings. The [illustrated feature guide (Traditional Chinese)](docs/WINDOWS_FEATURE_GUIDE.md) covers daily Windows use with macOS notes; see the [Windows TSF README](Source/Loaders/Windows-TSF/README.md) for building and testing.
+- Ubuntu 24.04 installation, Fcitx 5 setup, and typing with desktop screenshots: [Linux installation guide (Traditional Chinese)](LINUX_INSTALL.md).
+- FreeBSD packages, ports builds, desktop setup, and screenshots: [FreeBSD installation guide (Traditional Chinese)](FREEBSD_INSTALL.md). Port information: [FreshPorts: chinese/fcitx5-keykey](https://www.freshports.org/chinese/fcitx5-keykey/).
+- Build and install the Ubuntu 24.04 version from source with `./configure`: [Linux source installation and usage guide (Traditional Chinese)](LINUX_CONFIGURE_INSTALL.md).
+- iPhone and iPad setup and use: [iOS installation guide (Traditional Chinese)](IOS_INSTALL.md), with the [App Store listing](https://apps.apple.com/tw/app/%E7%90%A6%E7%90%A6%E8%BC%B8%E5%85%A5%E6%B3%95/id6807832939).
+- Android setup and daily use: [Android installation guide (Traditional Chinese)](ANDROID_INSTALL.md). Install the production version directly from [Google Play](https://play.google.com/store/apps/details?id=tw.chichi77.keykey.android); test enrollment is not required.
+- [GitHub Releases](https://github.com/polobread/KeyKey/releases) provides the
+  macOS, Windows, and Ubuntu 24.04 builds. The macOS package is Developer ID signed,
+  notarized by Apple, and accompanied by a SHA-256 checksum. The Windows ZIP
+  and installer from legacy unsigned releases remain unchanged. New Windows releases
+  require a signed EXE and signed executables inside both architecture ZIPs.
+- The three Linux `.deb` files, panel source archive, and `SHA256SUMS` share the
+  corresponding [GitHub Release](https://github.com/polobread/KeyKey/releases) with the desktop builds.
+- `Android Play Release` builds, signs, and uploads the Android AAB to Google Play
+  internal testing only when **Run workflow** is selected. PR merges and direct pushes
+  do not trigger it. Promote the uploaded build to production in Play Console. Closed testing is no longer required
+  for public installation. PR checks and manual `operation=verify` in `Android Play Release` produce a development APK and unsigned AAB without uploading to the store.
+- Device builds for iOS are distributed through the App Store.
+  `Package iOS Simulator` produces an Apple Silicon Simulator build that cannot
+  be installed on an iPhone or iPad.
+
+#### Code signing policy
+
+The Windows 1.5.1 installer and programs inside both architecture ZIPs must be Certum signed.
+Releases use the semi-automated local Certum/SimplySign flow;
+existing unsigned releases remain unchanged. See the [Code signing policy](CODE_SIGNING_POLICY.md)
+and [Windows Certum release guide](docs/WINDOWS_CERTUM_RELEASE.md).
+KeyKey does not currently meet the SignPath Foundation application requirements. Deferred integration and attribution are kept in the
+[Windows SignPath TODO](docs/WINDOWS_SIGNPATH_TODO.md).
+
+Publishing a GitHub Release starts `Package macOS` and the full `Linux CI`.
+macOS/Linux upload verified packages when their version matches that Release.
+Windows Actions calls the same PowerShell used locally for builds, tests and
+unsigned packaging, then retains verified signing inputs. Local Windows verifies
+the CI artifact, signs and repackages the EXE and both ZIPs; publication follows
+manual acceptance and approval. Ed25519 keys remain local and are never committed,
+uploaded or displayed. See the [Windows release guide](docs/WINDOWS_CERTUM_RELEASE.md).
+Build each platform from the selected Release tag with its matching product version. After fixing a failed stable macOS/Linux
+platform through a PR into `master`, manually run that workflow from `master` with
+the matching platform's `release_tag` to replace its assets; other platforms are untouched.
+Leaving `release_tag` blank retains Actions artifacts only.
+The [Linux installation guide](LINUX_INSTALL.md)
+describes the supported desktop and application environments.
+See [BUILDING.md](BUILDING.md#github-actions-packaging) for the
+complete output and signing details.
+
+### Development and contributions
+
+If something feels awkward or you miss a familiar typing habit, please let me
+know. My time is limited, so I am not accepting external pull requests for now.
+Bug reports and suggestions are still welcome. See the
+[contribution notes (Traditional Chinese)](CONTRIBUTING.md) for reporting and
+licensing details.
+
+For maintenance by the maintainer and assisting agents, commit and push code, documentation, and CI
+changes on a working branch, then open a pull request for the maintainer to review
+and merge. Agents must not merge PRs, enable auto-merge, or commit or push directly
+to `master`. Run `git pull --no-rebase origin master` from the working
+branch to synchronize it; preserve existing changes and review the diff and relevant
+validation before committing. Releases retain separate change review and manual
+approval. See [AGENTS.md](AGENTS.md) and the
+[Code signing policy](CODE_SIGNING_POLICY.md).
+
+### Documentation
+
+- [1.5.0 shared-core migration](docs/CROSS_PLATFORM_V1_5_0_RELEASE.md): release summary, migration boundaries, and platform acceptance requirements
+- [macOS App Store Connect feasibility and distribution plan (Traditional Chinese)](docs/MACOS_APP_STORE_PLAN.md): current Apple policy blocker, external distribution improvements, and future go/no-go gates
+- [Illustrated feature guide (Traditional Chinese)](docs/WINDOWS_FEATURE_GUIDE.md): Windows input methods, tone omission, shortcuts, symbols, and candidate appearance, with macOS notes
+- [Windows installation and use guide (Traditional Chinese)](WINDOWS_INSTALL.md): installer, setup, typing, preferences, and removal
+- [Linux installation and use guide (Traditional Chinese)](LINUX_INSTALL.md): Ubuntu 24.04 packages, Fcitx 5 setup, typing, and desktop screenshots
+- [Linux `./configure` installation and use guide (Traditional Chinese)](LINUX_CONFIGURE_INSTALL.md): source build, Fcitx 5 setup, typing, and removal on Ubuntu 24.04
+- [Android installation and use guide (Traditional Chinese)](ANDROID_INSTALL.md): Google Play production installation, keyboard setup, touch and hardware keyboard use
+- [BUILDING.md](BUILDING.md): build, test, installation, and packaging instructions
+- [Linux/FreeBSD Guanyinma integration](docs/GUANYINMA_LINUX_ADAPTER.md): current core, desktop preferences, user data, and focused validation
+- [Windows TSF README](Source/Loaders/Windows-TSF/README.md): frontend
+  implementation, deployment, and verification details
+- [Android IME README](Source/Loaders/Android-IME/README.md): layouts, build,
+  and setup instructions
+- [iOS Keyboard README](Source/Loaders/iOS-Keyboard/README.md): extension
+  architecture, build instructions, and platform limitations
+- [CHANGELOG.md](CHANGELOG.md): release changes
+- [App Store / Google Play assets](StoreAssets/README.md): store images, source
+  captures, copy, and distribution channels
+- [Installer README](Installer/README.md): macOS packaging, signing, and
+  notarization
+- [LICENSING.md](LICENSING.md): Yahoo BSD, original frontend MIT, and
+  third-party license scope
+- [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md): third-party material and
+  licenses
+
+### Data and limitations
+
+The public repository includes McBopomofo mappings and frequency data and 29
+categorized associated-phrase collections under the MIT License. The categorized
+data was generated, inferred, and normalized automatically, has not been reviewed
+item by item, and may contain errors. Accuracy and completeness are not
+guaranteed; see
+[`DataSource/chichi77Collection`](DataSource/chichi77Collection/README.md).
+
+**Project-original AI articles and database content are licensed under MIT.**
+This covers AI articles in `DataSource/AISyntheticArticles/`, AI-generated corpora
+and project-original derived database content, bigram data, counts, and weights in
+`DataSource/AISyntheticBigram/`, and covered portions of exports and bundled databases.
+To the extent the project rights holder can grant rights, reuse, modification,
+redistribution, commercial use, and model training or evaluation are permitted
+under MIT, subject to retaining the copyright and permission notices. Third-party
+material retains its respective terms. See the
+[AI data notice](LICENSES/AI-DATA-NOTICE.txt).
+
+Smart Mandarin combines McBopomofo data with project AI-generated data. The
+McBopomofo inputs retain their MIT License; project-original AI-derived portions
+use the MIT grant described above. Yahoo's proprietary Sinica corpus is not included.
+
+## License
+
+This is a mixed-license repository. Original Android, iOS, and Windows TSF
+frontend material is Copyright (c) 2026 Chui-Ping Cheng and distributed under
+the [MIT License](LICENSES/MIT.txt). The original Yahoo! KeyKey source and
+modifications derived from it remain under the BSD 3-Clause License in
+[LICENSE.txt](LICENSE.txt).
+See [LICENSING.md](LICENSING.md) for the scope map and
+[THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md) for third-party material.

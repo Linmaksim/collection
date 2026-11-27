@@ -1,0 +1,82 @@
+# 短剧之家 v2（红果）｜电视盒子 / 智能电视下载
+
+<!-- platforms:start -->
+> **其他版本下载：** [安卓手机 / 平板](https://github.com/jackherex/duanjuzhijia-down-phone)　｜　[iPhone / iPad](https://github.com/jackherex/duanjuzhijia-down-ios)　｜　[Windows 电脑](https://github.com/jackherex/duanjuzhijia-down-pc)　｜　**安卓电视 / 盒子（本页）**　｜　[Apple TV](https://github.com/jackherex/duanjuzhijia-down-tvos)
+<!-- platforms:end -->
+
+在电视盒子或智能电视上用遥控器找剧、接着上次看。**内容来自红果**，支持搜索、收藏、选集、倍速、自动连播，也能和手机版、电脑版互相同步收藏与观看进度。
+
+**免费使用 · 当前版本 2.0.6+7**
+
+[**⬇ 下载 TV 版安装包（APK）**](https://github.com/jackherex/duanjuzhijia-down-tv/releases/latest)　｜　[全部版本](https://github.com/jackherex/duanjuzhijia-down-tv/releases)　｜　[❤️ 爱发电赞助支持](https://afdian.com/a/duanjuzhijia)
+
+适用于**安卓电视盒子 / 智能电视**（安卓 8.0 及以上），安装包约 **30.3 MB**。
+普通使用**只需要下载 `.apk`**，不需要下载页面里的其它文件。
+
+> 上面的按钮**始终指向最新版**，以后发新版不用回来改链接。
+
+## 三步开始使用
+
+1. 用电脑或手机点上面的按钮，打开最新版下载页，下载带 `.apk` 的那个文件（别的不用管）。
+2. 把它拷到 U 盘，插到电视或盒子上，用设备自带的「文件管理」打开安装。
+   也可以在设备上装一个应用商店（如当贝市场），用它的「U 盘安装」功能。
+3. 装好后在电视的「应用」列表里找到「短剧之家 TV」打开，用遥控器操作。
+
+## 常见问题
+
+**装不上，或提示「解析包出现问题」**
+本安装包是 32 位版本，对应绝大多数电视盒子。请确认下载到的文件名里带 `armeabi-v7a`。
+
+**为什么没有画质增强和下载功能？**
+TV 版是**轻量版**：为了在配置较低的盒子上跑得动，刻意去掉了画质增强、下载缓存、扫码同步这几项。搜索、收藏、选集、倍速、自动连播、跨设备同步都还在。
+
+**遥控器按键没反应？**
+先按方向键把焦点移到按钮上（按钮周围会出现高亮框），再按「确定 / OK」。
+
+**怎么和手机、电脑同步？**
+在「设置」里配置「设备互联」或 WebDAV（坚果云、群晖、OpenList 都行），各设备填**同一套**配置。TV 版需要在电视上手动输入配置，建议先用电脑版配好，再照着填。
+
+**会和手机上装的那个冲突吗？**
+不会。TV 版是独立的应用，可以和手机版、电脑版同时装。
+
+## 使用反馈
+
+遇到问题请到 [反馈区](https://github.com/jackherex/duanjuzhijia-down-tv/issues) 说明：**设备型号、安卓版本、软件版本**（设置页最下方能看到），以及**怎么操作会出现问题**。有想要的功能也可以提。
+
+## 下载与安装说明
+
+### `duanjuzhijiatv-2.0.6+7-arm64-v8a.apk`
+
+大小 `31792782` 字节。SHA-256：
+
+```
+c2092e8dede107387c36263dec7d064ceecedd98aaa81fe3b2417c1269e136f3
+```
+
+### `duanjuzhijiatv-2.0.6+7-armeabi-v7a.apk`
+
+大小 `40345886` 字节。SHA-256：
+
+```
+3e4ed00d39aa9378bc2cbd277448f5674b19190cb9ef06b2e3d8a3e28c2380f1
+```
+
+这串数字用来核对文件有没有下载完整，**不能代替身份认证**。
+
+> ⚠️ 上面这组校验值对应的是**本次说明写就时的最新版**。如果下载页上已经有更新的版本，
+> 请以页面上的为准（按钮永远指向最新版）。
+
+[全部版本与更新内容](https://github.com/jackherex/duanjuzhijia-down-tv/releases)
+
+## 赞助支持
+
+如果觉得软件好用，欢迎通过爱发电赞助支持项目持续维护与更新（自愿支持，不影响免费使用）：
+
+- 爱发电主页：[**https://afdian.com/a/duanjuzhijia**](https://afdian.com/a/duanjuzhijia)
+
+## 关于本仓库
+
+这里是**公开下载页**：只放安装包，供大家直接下载。应用免费使用。
+剧中内容来自红果，相关品牌与内容归各自权利方所有。
+
+本项目二改自红果鉴开源项目，仅供学习交流。

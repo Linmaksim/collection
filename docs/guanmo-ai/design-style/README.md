@@ -1,0 +1,190 @@
+# 每天一个设计风格 · Design Style
+
+<!-- BEGIN WORK PREVIEWS -->
+<!-- 由 npm run gallery:readme 根据 gallery/data/works.json 生成，请勿手动修改此区域。 -->
+<p><a href="https://guanmo-ai.github.io/design-style/?lang=zh"><img src="docs/assets/style-mosaic.svg" width="100%" alt="27 张作品封面拼图 · 点击进入画廊" /></a></p>
+<!-- END WORK PREVIEWS -->
+
+[**中文**](README.md) · [**English**](README.en.md) · [**English gallery →**](https://guanmo-ai.github.io/design-style/?lang=en)
+
+**面向设计师与 AI 的开源设计风格库。**
+
+*Design references for humans and AI.*
+
+每天拆解一种设计风格：15 秒动效短片、风格图、设计规则、AI 提示词与完整源码。
+为你的创作提供灵感，为 AI 提供清晰的审美参考与设计约束。
+
+内容分为「设计风格」与「布局方式」两个系列，统一展示短片、图解与实用规则。既可以认识包豪斯等视觉语言，也可以学习便当盒、杂志网格等信息排列方式。
+
+by 观默 [@guanmo_ai](https://x.com/guanmo_ai)
+
+[**打开网页画廊 →**](https://guanmo-ai.github.io/design-style/)
+
+---
+
+## 每一期都有什么
+
+| | 内容 | 规格 | 源码 |
+|---|---|---|---|
+| 🎬 | **15—20 秒动效短片** | 1920×1080 · 30 / 60fps · 配乐与音效全部由代码合成 · 成片在 [Releases](https://github.com/guanmo-ai/design-style/releases) | `video/`（[Remotion](https://www.remotion.dev) 等）或 `video3d/`（[three.js](https://threejs.org)）· `audio/make_music.py` |
+| 🖼 | **4 张风格图 / 布局图** | 1080×1350（X / 小红书竖图比例） | `images/*.svg`，手写 SVG，可直接改 |
+| 🛠 | **制作过程** | 研究 → 令牌 → 风格图 → 分镜 → 改版 → 质检 → 发布，每一步怎么想、怎么做、踩了什么坑 | `PROCESS.md` · `process/`（联系表、时间轴等过程图） |
+| 🧰 | **从 0 到 1**（003 起） | 用了哪些工具、按什么顺序、每一步敲什么命令、做到什么程度算过关；附开工提示词，照着做能复刻一期 | `MAKING.md` · `process/05-workflow.png` |
+| 📐 | **风格指南 / 布局指南** | 历史 · 规则 · 色板 · 字体 · 版式 · 常见误区 · AI 提示词 | `README.md` |
+| 🎨 | **设计令牌** | 同一份颜色 / 字体 / 线宽，视频、图片、网页共用 | `tokens.ts` · `tokens.css` · `tokens.json` |
+
+> `images/preview/` 里的 SVG 已内嵌字体子集，在 GitHub 上点开就是最终效果。
+
+## 目录
+
+### 设计风格 · Style
+
+下表沿用制作目录编号；网站期号按首次上架顺序独立排列。
+
+| 期 | 风格 | 年代 | 一句话 | |
+|:-:|---|---|---|---|
+| **001** | [**包豪斯 Bauhaus**](styles/001-bauhaus) | 1919—1933 | 圆、方、三角 + 红黄蓝，把“好看”变成可以教的规则 | [🎬 视频](https://github.com/guanmo-ai/design-style/releases/tag/day-01) · [🛠 过程](styles/001-bauhaus/PROCESS.md) |
+| **002** | [**瑞士国际主义 Swiss Style**](styles/002-swiss-style) | 1950—1970 | 一张网格、一种无衬线、一种红，把版面变成一道可以计算的题 | [🎬 视频](https://github.com/guanmo-ai/design-style/releases/tag/day-02) · [🛠 过程](styles/002-swiss-style/PROCESS.md) |
+| **003** | [**构成主义 Constructivism**](styles/003-constructivism) | 1917—1932 | 一条斜线、一块红、一个大声的字：把轴转 30°，版面就开始往前冲 | [🎬 视频](https://github.com/guanmo-ai/design-style/releases/tag/day-03) · [🛠 过程](styles/003-constructivism/PROCESS.md) · [🧰 从 0 到 1](styles/003-constructivism/MAKING.md) |
+| **004** | [**孟菲斯 Memphis**](styles/004-memphis) | 1980—1988 | 一块一色、描一圈黑边、再歪一点：让普通的东西，看起来“好玩” | [🎬 视频](https://github.com/guanmo-ai/design-style/releases/tag/day-04) · [🛠 过程](styles/004-memphis/PROCESS.md) · [🧰 从 0 到 1](styles/004-memphis/MAKING.md) |
+| **005** | [**波普艺术 Pop Art**](styles/005-pop-art) | 1956—1970 | 网点代替渐变、粗黑线圈住每块颜色：普通的东西，也能上墙 | [🎬 视频](https://github.com/guanmo-ai/design-style/releases/tag/day-05) · [🛠 过程](styles/005-pop-art/PROCESS.md) · [🧰 从 0 到 1](styles/005-pop-art/MAKING.md) |
+| **006** | [**千禧未来主义 Y2K**](styles/006-y2k) | 1997—2004 | 铬、果冻和半透明塑料：把对 2000 年的期待做进屏幕——未来，正在加载 | 视频待补齐，暂未上线 · [🛠 过程](styles/006-y2k/PROCESS.md) · [🧰 从 0 到 1](styles/006-y2k/MAKING.md) |
+| **008** | [**孔版印刷 Risograph**](styles/008-risograph) | 1946—今天 | 三种油墨、一张会呼吸的纸：荧光粉印不进 CMYK，套不准是这台机器的口音 | [🎬 视频](https://github.com/guanmo-ai/design-style/releases/tag/day-08) · [🛠 过程](styles/008-risograph/PROCESS.md) |
+| **009** | [**新粗野主义 Neo-Brutalism**](styles/009-neo-brutalism) | 2021—今天 | 黑框描到底，阴影是一块偏移的黑：按下去，就是滑到阴影的位置 | [🎬 视频](https://github.com/guanmo-ai/design-style/releases/tag/day-09-audio-v2) · [🛠 过程](styles/009-neo-brutalism/PROCESS.md) |
+| **013** | [**装饰艺术 Art Deco**](styles/013-art-deco) | 1925—1939 | 先立一条中轴，阶梯、放射、三线从中轴往两边同时长出来；金色只给线 | [🎬 视频](https://github.com/guanmo-ai/design-style/releases/tag/day-13) · [🛠 过程](styles/013-art-deco/PROCESS.md) |
+| **014** | [**液态玻璃 Liquid Glass**](styles/014-liquid-glass) | 2013—今天 | 玻璃不发光，只把后面的东西弯过来：折射量 = 边缘的坡度 | [🎬 视频](https://github.com/guanmo-ai/design-style/releases/tag/day-14) · [🛠 过程](styles/014-liquid-glass/PROCESS.md) |
+| **017** | [**中世纪现代 Mid-Century Modern**](styles/017-mid-century-modern) | 1945—1965 | 剪刀代替尺子：同一批彩纸翻面接力，从片头、家具、唱片与建筑落到今天的 App | [🎬 视频](https://github.com/guanmo-ai/design-style/releases/tag/day-17) · [🛠 过程](styles/017-mid-century-modern/PROCESS.md) |
+| **018** | [**微缩景观 Diorama**](styles/018-diorama) | 1950s—今天 | 把世界切成一块底座，一块块搭出来，再用移轴把它变小 | [🎬 视频](https://github.com/guanmo-ai/design-style/releases/tag/day-18-v3) · [🛠 过程](styles/018-diorama/PROCESS.md) |
+| **019** | [**低多边形 Low Poly**](styles/019-low-poly) | 1993—今天 | 一个面，一个颜色：三角面从纸上翻起，拼成山谷、灯塔与小星球 | [🎬 视频](https://github.com/guanmo-ai/design-style/releases/tag/day-19) · [🛠 过程](styles/019-low-poly/PROCESS.md) |
+| **020** | [**字符画 ASCII Art**](styles/020-ascii-art) | 1960s—今天 | 没有像素，只有字：把亮度变成字，把乱码变成界面反馈 | [🎬 视频](https://github.com/guanmo-ai/design-style/releases/tag/day-20) · [🛠 过程](styles/020-ascii-art/PROCESS.md) |
+| **021** | [**生成艺术 Generative Art**](styles/021-generative-art) | 1960s—今天 | 不画画，写规则：从流场与种子，到手机上的头像、封面和票券 | [🎬 视频](https://github.com/guanmo-ai/design-style/releases/tag/day-21) · [🛠 过程](styles/021-generative-art/PROCESS.md) |
+| **025** | [**毛绒 Plush**](styles/025-plush) | 2026 | 同一批四十万根毛，从毛球接力到泰迪熊与界面，身体先动、毛晚半拍 | [🎬 视频](https://github.com/guanmo-ai/design-style/releases/tag/day-25) · [🛠 过程](styles/025-plush/PROCESS.md) |
+| **026** | [**新艺术运动 Art Nouveau**](styles/026-art-nouveau) | 1890—1910 | 一根鞭线长成光环、地铁口、台灯与手机界面，21 秒绕回原点 | [🎬 视频](https://github.com/guanmo-ai/design-style/releases/tag/day-26) · [🛠 过程](styles/026-art-nouveau/PROCESS.md) |
+| **027** | [**马克笔手绘 Marker**](styles/027-marker) | 当代 | 六个场景用巨笔接力，汽车开走、球鞋翻转、建筑亮灯，手绘走进官网、App 与海报 | [🎬 视频](https://github.com/guanmo-ai/design-style/releases/tag/day-27) · [🛠 过程](styles/027-marker/PROCESS.md) |
+| **029** | [**达达 Dada**](styles/029-dada) | 1916—约 1924 | 一批纸片接力演示照片蒙太奇、偶然拼贴和剪报成诗 | [🎬 视频](https://github.com/guanmo-ai/design-style/releases/tag/day-29) · [🛠 过程](styles/029-dada/PROCESS.md) |
+| **030** | [**维也纳分离派 Vienna Secession**](styles/030-secession) | 1897 年创立 | 金箔落在方板上，一格展开成六十四格 | [🎬 视频](https://github.com/guanmo-ai/design-style/releases/tag/day-30) · [🛠 过程](styles/030-secession/PROCESS.md) |
+| **031** | [**朋克复印机 Punk Xerox**](styles/031-punk) | 1970 年代朋克视觉 | 剪贴字、网点和一台复印机，印出一整墙演出海报 | [🎬 视频](https://github.com/guanmo-ai/design-style/releases/tag/day-31) · [🛠 过程](styles/031-punk/PROCESS.md) |
+
+### 布局方式 · Layout
+
+| 期 | 布局 | 年代 | 一句话 | |
+|:-:|---|---|---|---|
+| **01** | [**便当盒布局 Bento Grid**](layouts/01-bento-grid) | 2020s— | 大小不一的圆角格子，一格一事，用面积告诉你谁最重要 | [🎬 视频](https://github.com/guanmo-ai/design-style/releases/tag/layout-01) · [🛠 过程](layouts/01-bento-grid/PROCESS.md) |
+| **02** | [**瀑布流布局 Masonry**](layouts/02-masonry) | 2009— | 列宽固定、高度跟着内容走，每一张都落进最短的那一列 | [🎬 视频](https://github.com/guanmo-ai/design-style/releases/tag/layout-02) · [🛠 过程](layouts/02-masonry/PROCESS.md) |
+| **03** | [**蜂窝布局 Honeycomb**](layouts/03-honeycomb) | 当代界面 | 六边形错列排列，中心聚焦，外围保持可浏览 | [🎬 视频](https://github.com/guanmo-ai/design-style/releases/tag/layout-03) · [🛠 过程](layouts/03-honeycomb/PROCESS.md) |
+
+计划中（顺序可能调整）：装饰艺术 Art Deco · 新粗野主义网页 Neo-Brutalism · Y2K …… 想看哪个，来 X 上告诉我。
+
+## 本地运行
+
+### 浏览网页画廊
+
+网页画廊只展示本仓库已发布视频，支持搜索、按风格 / 布局筛选、视频播放、图片预览，以及站内阅读指南和制作过程。需要 Node.js 22.12+ 与已登录的 GitHub CLI；无需安装渲染依赖。
+
+```bash
+npm run gallery:setup
+npm run gallery:sync
+npm run gallery:build
+npm run gallery:serve
+```
+
+打开 `http://127.0.0.1:4186`。添加下一期、检查与静态托管说明见 [网页画廊维护文档](docs/GALLERY.md)。
+
+### 制作与渲染
+
+需要 Node 22.12+、Python 3.10+、ffmpeg、Git。
+
+```bash
+git clone https://github.com/guanmo-ai/design-style.git && cd design-style
+npm ci
+npm run fonts                  # 下载开源字体到 public/fonts（Jost / JetBrains Mono / TeX Gyre Heros / Oswald / Fredoka / Bangers / Unbounded / Michroma / Silkscreen / Archivo / Space Mono / Space Grotesk / Tinos / Inter / Geist Mono / Selawik / Instrument Serif / Noto Sans SC）
+pip install -r requirements.txt   # numpy / scipy / Pillow / fonttools / matplotlib
+
+npm run studio                 # 在浏览器里逐帧预览、改参数
+npm run render:001             # 生成配乐 → 渲染 out/001-bauhaus.mp4
+npx playwright install chromium
+npm run images:001             # 生成图案 → 内嵌字体的 preview SVG + 2x PNG
+npm run render:002             # 风格 002：生成配乐 → 渲染 out/002-swiss-style-master.mp4（带运动模糊，较慢）
+npm run images:002             # 风格 002：生成 4 张风格图 → preview SVG + 2x PNG
+npm run render:003             # 风格 003：生成配乐 → 渲染 out/003-constructivism-master.mp4（带运动模糊）
+npm run images:003             # 风格 003：生成 4 张风格图 → preview SVG + 2x PNG
+npm run render:004             # 风格 004：生成配乐 → 渲染 out/004-memphis-master.mp4（带运动模糊）
+npm run images:004             # 风格 004：生成 4 张风格图 → preview SVG + 2x PNG
+npm run render:005             # 风格 005：生成配乐 → 渲染 out/005-pop-art-master.mp4（带运动模糊，18 秒）
+npm run images:005             # 风格 005：生成 4 张风格图 → preview SVG + 2x PNG
+npm run render:006             # 风格 006：生成配乐 → 渲染 out/006-y2k-master.mp4（WebGL2 材质，用 SwiftShader 软渲染，较慢）
+npm run images:006             # 风格 006：生成 4 张风格图 → 用视频同款着色器渲染材质图层 → preview SVG + 2x PNG
+npm run render:008             # 风格 008：生成配乐 → 渲染 out/008-risograph-master.mp4（孔版叠印 + 运动模糊）
+npm run images:008             # 风格 008：生成 4 张风格图 → preview SVG + 2x PNG
+npm run render:009             # 风格 009：生成配乐 → 渲染 out/009-neo-brutalism-master.mp4（真实 CSS 硬阴影 + 运动模糊）
+npm run images:009             # 风格 009：生成 4 张风格图 → preview SVG + 2x PNG
+npm run render:013             # 风格 013：生成配乐 → 渲染 out/013-art-deco-master.mp4
+npm run images:013             # 风格 013：生成 4 张风格图 → preview SVG + 2x PNG
+npm run render:014:gpu         # 风格 014：Mac 显卡渲染；软件渲染用 render:014
+npm run preview:014            # 风格 014：30fps、半分辨率草稿预览
+npm run images:014             # 风格 014：生成 4 张风格图 → preview SVG + 2x PNG
+npm run render:L01             # 布局 01：生成配乐 → 渲染 out/01-bento-grid-master.mp4
+npm run images:L01             # 布局 01：生成 4 张布局图 → preview SVG + 2x PNG
+npm run render:L02             # 布局 02：生成配乐 → 渲染 out/02-masonry-master.mp4
+npm run images:L02             # 布局 02：生成 4 张布局图 → preview SVG（内嵌字体和照片）+ 2x PNG
+
+# 制作过程里的过程图
+npx remotion bundle src/index.ts --out-dir out/bundle
+node scripts/stills.mjs out/bundle out/check 164 224 314   # 只导出想检查的帧（COMP=L01-BentoGrid 换成布局 01）
+python3 scripts/contact_sheet.py out/sheet.jpg --video out/001-bauhaus.mp4 "164|01 色彩" "224|02 形与色"
+python3 scripts/timeline_chart.py styles/001-bauhaus/process/timeline.json public/001-bauhaus/music.wav out/timeline.png
+```
+
+根目录的 `npm ci` 会自动应用浏览器 ZIP 解压安全补丁；使用 `--ignore-scripts` 安装时，须再运行 `npm run postinstall`。运行 `npm test` 检查画廊与安全回归用例；补丁边界和升级注意事项见 [安全维护说明](docs/SECURITY.md)。
+
+## 目录结构
+
+```
+design-style/
+├─ src/                    # Remotion 入口，每期注册一个 Composition：风格 S001-Bauhaus … / 布局 L01-BentoGrid …
+│  └─ lib/                 # 通用动画工具（缓动 / 弹簧 / 关键帧轨道）与胶片颗粒
+├─ styles/
+│  └─ 001-bauhaus/
+│     ├─ README.md         # 风格指南
+│     ├─ PROCESS.md        # 制作过程（process/ 里是过程图）
+│     ├─ tokens.{ts,css,json}
+│     ├─ video/            # 15 秒短片：开场 + 9 个章节 + 九宫格回顾 + 片尾
+│     ├─ audio/make_music.py
+│     └─ images/           # poster / cheatsheet / app-ui / pattern(.py)
+│        └─ preview/       # 内嵌字体、可直接分享的 SVG
+│  └─ 002-swiss-style/     # 同上；短片：一张 12 × 6 网格贯穿全片，红色接力换幕
+│  └─ 003-constructivism/  # 同上，另有 MAKING.md（从 0 到 1 的工具与流程）；短片：全片只有两条轴（−30° / 60°），形状接力换幕
+│  └─ 004-memphis/         # 同上，含 MAKING.md；短片：每样东西都是“糖果色 + 黑描边 + 硬投影”的积木，掉下来、压扁、回弹，颜色接力换幕
+│  └─ 005-pop-art/         # 同上，含 MAKING.md；短片：一切都像印出来的——网点代替渐变、粗黑线 + 硬投影，网点长满接力换幕；整体放慢 1.2 倍到 18 秒
+│  └─ 006-y2k/             # 同上，含 MAKING.md；短片：开机 → 铬字 → 果冻 iMac → Aqua → 像素表情 → 千年虫 → 今天；铬、果冻、泡泡、玻璃由 WebGL2 着色器逐帧算出（video/material.js），18 秒
+│  └─ 008-risograph/       # 同上；短片：三张版砸在一起 → 热敏头烧孔 → 分色过机 → 叠印 → 小志出纸 → 五个词；每色一张版，正片叠底
+│  ├─ 009-neo-brutalism/   # 同上；短片：键帽 → 元素从框里长出来 → 抬起与阶梯 → 按压水波 → 混凝土 / 网页 / 按钮 → 网页与 App → 五个词；阴影长度 = 高度，20 秒
+│  └─ 013-art-deco/        # 同上；短片：推进拱窗 → 三线拱门隧道 → 十二瓣万花筒 → 夜景天际线与上升镜头 → 五条规则 → 海报长回去；一镜到底、一切沿中轴镜像，20 秒
+├─ layouts/                # 布局：结构同 styles/，期号两位
+│  └─ 01-bento-grid/
+│     ├─ README.md         # 布局指南
+│     ├─ PROCESS.md        # 制作过程（含 v1 → v2 改版）
+│     ├─ tokens.{ts,css,json}  # 列数 · 间距 · 圆角 · 响应式
+│     ├─ video/            # 15 秒短片：同一套卡片一路变形（发布会 → 来历 → 规则 → 用法）
+│     ├─ audio/make_music.py
+│     └─ images/           # poster / cheatsheet / skins / templates（make_svgs.py 生成）
+  └─ 02-masonry/           # 同上；短片：26 张卡片在 13 种排法之间流动（落雨 → 砌石墙 → 算法 → Pinterest → 手机 → 规则 → 响应式）
+├─ gallery/                # 网页画廊（静态站点源码与作品数据 works.json）
+├─ scripts/                # 字体下载 · SVG → PNG · 关键帧截图 · 联系表 · 节拍时间轴
+├─ docs/PROCESS_TEMPLATE.md # 每期制作过程的模板
+└─ public/                 # 字体与生成的音频（不入库）；视频里用到的静态图与照片
+```
+
+## 统一规格
+
+- **时长** 15 秒 = 900 帧 @ 60fps；所有转场都落在拍点上（包豪斯、瑞士风格 120 BPM，1 拍 = 30 帧；便当盒 150 BPM，1 拍 = 24 帧；瀑布流约 128.6 BPM，1 拍 = 28 帧）
+- **结构** 钩子（0–2s）→ 6–9 个侧面章节（每章 1–1.5s：一个主角 + 一个动作 + 一行标签）→ 回顾 → 片尾
+- **每期四件套** 视频 · 风格图 · 制作过程 · 源代码
+- **风格图** 海报 · 速查卡 · 今天的应用 · 图案/纹理，四张一组
+- **布局图** 海报 · 速查卡 · 布局 × 风格（或易混布局对照）· 拿来就用的模板，四张一组
+- **字体** 只用可免费商用的开源字体（SIL OFL / GUST Font License / Apache 2.0）
+
+## 授权
+
+代码欢迎学习和改造；转发视频和图片请注明出处 **观默 @guanmo_ai**。
+字体 Jost、JetBrains Mono、Inter、Geist Mono、Selawik、Instrument Serif、Noto Sans SC、Oswald、Fredoka、Bangers、Unbounded、Michroma、Silkscreen、Archivo、Space Mono、Space Grotesk、Caveat、Long Cang 均为 SIL Open Font License 1.1；TeX Gyre Heros 为 GUST Font License；Tinos、Permanent Marker 为 Apache License 2.0。
