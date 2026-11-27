@@ -6,7 +6,7 @@
 
 ## 目錄
 
-- [影音娛樂](#影音娛樂) — 紅果 TV、HGhubX、Jellyfin、NewPipe、AvPlay、短劇之家、紅果桌面端、BoxPlayer、MarcoMovie、IPTV、TVAPP、OrionTV、MoonTV、Dai-Hentai、ppcat_store、Cimoc、書源合集（shidahuilang、wpzwdz）、EhSyringe
+- [影音娛樂](#影音娛樂) — 紅果 TV、HGhubX、Jellyfin、NewPipe、AvPlay、短劇之家、紅果桌面端、BoxPlayer、MarcoMovie、IPTV、TVAPP、OrionTV、MoonTV、Dai-Hentai、ppcat_store、Cimoc、書源合集（shidahuilang、wpzwdz）、EhSyringe、OuonnkiTV
 - [下載工具](#下載工具) — LibreGet、Cloudn、yt-dlp、video_vip
 - [AI 技能與提示詞](#ai-技能與提示詞) — anthropics/skills、obra/superpowers、wshobson/agents、jakubkrehel/skills、系統提示詞泄露合集、zh-tw-humanizer、speak-human-tw、agency-agents
 - [AI 程式與開發工具](#ai-程式與開發工具) — Cursor、Bolt.new、LocModel、ModelScope、DSH-Android、AstrBot、MuseLink、Agent-Reach、Gemini API CLI、叠号、nanoMuse、deer-flow、OpenMausBot、QySuperBot、botdrop-android、Python 練習、dsh-Go
@@ -102,6 +102,10 @@
 ### EhSyringe（E 站注射器）
 
 - **EhSyringe**【手機】（⭐ 3799）—— [EhTagTranslation/EhSyringe](https://github.com/EhTagTranslation/EhSyringe)：E 站注射器：把中文翻譯注入到 E 站體內。（TypeScript，MIT）星標核實於 2026-11-28。
+
+### OuonnkiTV（一鍵搭建個人影視站）
+
+- **OuonnkiTV**（⭐ 1337）—— [Ouonnki/OuonnkiTV](https://github.com/Ouonnki/OuonnkiTV)：一鍵搭建個人影視站，支援 Vercel 自動部署，基於 LibreTV 修改；聚合搜索、流暢播放、TMDB 智能匹配、收藏管理、視頻源訂閱、觀看歷史、響應式設計、多端適配。只提供前端、不托管任何影片，視頻源要自己配。（TypeScript，Apache-2.0）星標核實於 2026-11-28。
 
 ## 下載工具
 
