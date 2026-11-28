@@ -1,9 +1,9 @@
 # 收藏倉庫說明文件備份（docs/）
 
-這是 2026-11-28 從 GitHub 收藏的 141 個條目裡備份的說明文件（主要是各倉庫的 README 原文，未改動）。
+這是 2026-11-28 從 GitHub 收藏的 142 個條目裡備份的說明文件（主要是各倉庫的 README 原文，未改動）。
 備份目的：有些原倉庫會被作者刪掉或封鎖，先存一份在我們自己的倉庫裡。
 
-- 成功備份：132 個倉庫
+- 成功備份：133 個倉庫
 - 未備份：8 個官網連結（沒有 GitHub 倉庫）、1 個 AvPlay（原倉庫已被 GitHub 封鎖，取不到）
 - 每份文件的來源連結與授權以原倉庫為準；檔案內容為備份當天的原文，之後原倉庫若有更新，這裡不會自動同步。
 - 目錄結構：`docs/<作者>/<倉庫>/README.md`
@@ -50,6 +50,7 @@
 - [zh-tw-humanizer](https://github.com/acchuang/zh-tw-humanizer) — 備份：[docs/acchuang/zh-tw-humanizer/README.md](./acchuang/zh-tw-humanizer/README.md)
 - [speak-human-tw](https://github.com/Raymondhou0917/speak-human-tw) — 備份：[docs/Raymondhou0917/speak-human-tw/README.md](./Raymondhou0917/speak-human-tw/README.md)
 - [agency-agents](https://github.com/msitarzewski/agency-agents) — 備份：[docs/msitarzewski/agency-agents/README.md](./msitarzewski/agency-agents/README.md)
+- [prompts.chat](https://github.com/f/prompts.chat) — 備份：[docs/f/prompts.chat/README.md](./f/prompts.chat/README.md)
 
 ## AI 程式與開發工具
 

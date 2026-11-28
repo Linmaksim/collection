@@ -8,7 +8,7 @@
 
 - [影音娛樂](#影音娛樂) — 紅果 TV、HGhubX、Jellyfin、NewPipe、AvPlay、短劇之家、紅果桌面端、BoxPlayer、MarcoMovie、IPTV、TVAPP、OrionTV、MoonTV、Dai-Hentai、ppcat_store、Cimoc、書源合集（shidahuilang、wpzwdz）、EhSyringe、OuonnkiTV
 - [下載工具](#下載工具) — LibreGet、Cloudn、yt-dlp、video_vip
-- [AI 技能與提示詞](#ai-技能與提示詞) — anthropics/skills、obra/superpowers、wshobson/agents、jakubkrehel/skills、系統提示詞泄露合集、zh-tw-humanizer、speak-human-tw、agency-agents
+- [AI 技能與提示詞](#ai-技能與提示詞) — anthropics/skills、obra/superpowers、wshobson/agents、jakubkrehel/skills、系統提示詞泄露合集、zh-tw-humanizer、speak-human-tw、agency-agents、prompts.chat
 - [AI 程式與開發工具](#ai-程式與開發工具) — Cursor、Bolt.new、LocModel、ModelScope、DSH-Android、AstrBot、MuseLink、Agent-Reach、Gemini API CLI、叠号、nanoMuse、deer-flow、OpenMausBot、QySuperBot、botdrop-android、Python 練習、dsh-Go
 - [內容創作](#內容創作) — MoneyPrinterTurbo、F5-TTS、VoiceStudio、Voicebox、SadTalker、Upscayl、Raphael、Clipdrop、Concat、Napkin、Marp、BackgroundMattingV2、voice-skill
 - [自媒體發布](#自媒體發布) — MatrixMedia、麥田、CreatorHub
@@ -60,6 +60,7 @@
 | [zh-tw-humanizer](https://github.com/acchuang/zh-tw-humanizer) ⭐11 · 電腦 | 台式中文去 AI 味編輯 skill（Python，MIT），把 AI 寫的繁體中文改寫成自然的台灣華語；62 種 AI 寫作特徵、183 組兩岸用語對照、保護價格／連結／引文不動；附離線檢查程式 check.py，改完對照原稿比對，數字、日期、網址掉了或憑空多出來會報出來，還掃簡體字、半形標點、隱形字元。 | 活躍 |
 | [speak-human-tw](https://github.com/Raymondhou0917/speak-human-tw) ⭐1,216 · 電腦 | 繁體中文去 AI 味 skill（Python，MIT），38 種 AI 痕跡、60 多組台灣用語對照、42 條評測（27 條該改必中＋15 條不可誤殺）；保護價格／優惠碼／連結／真名原話／承諾條款不動；預設先列清單等勾選才動筆。 | 活躍 |
 | [agency-agents](https://github.com/msitarzewski/agency-agents) ⭐170,596 · 電腦 | 一整套 AI 代理團隊（Shell，MIT）：前端、社群、寫作等各路專家，帶人設、流程與交付物。 | 活躍 |
+| [prompts.chat](https://github.com/f/prompts.chat) ⭐178,751 · 手機＋電腦 | 前身 Awesome ChatGPT Prompts 的社群提示詞庫，10,000 多條提示詞，寫作、編程、做圖、視頻、研究都有；提示詞資料 CC0 公共領域，複用不用問人；也能當 MCP 伺服器接進 Claude Code，讓 agent 做任務時自己查。網站免登入可搜，開源可自架。 | 活躍 |
 ## AI 程式與開發工具
 | 名稱 | 簡介 | 更新 |
 | --- | --- | --- |
